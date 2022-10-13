@@ -1,0 +1,2500 @@
+- ENTRYTYPE: article
+  abstract: "Beyond the hype of Big Data, something within business intelligence projects\
+    \ is indeed changing. This is mainly because Big Data is not only about data,\
+    \ but also about a complete conceptual and technological stack including raw and\
+    \ processed data, storage, ways of managing data, processing and analytics. A\
+    \ challenge that becomes even trickier is the management of the quality of the\
+    \ data in Big Data environments. More than ever before the need for assessing\
+    \ the Quality-in-Use gains importance since the real contribution\u2013business\
+    \ value\u2013of data can be only estimated in its context of use. Although there\
+    \ exists different Data Quality models for assessing the quality of regular data,\
+    \ none of them has been adapted to Big Data. To fill this gap, we propose the\
+    \ \u201C3As Data Quality-in-Use model\u201D, which is composed of three Data Quality\
+    \ characteristics for assessing the levels of Data Quality-in-Use in Big Data\
+    \ projects: Contextual Adequacy, Operational Adequacy and Temporal Adequacy. The\
+    \ model can be integrated into any sort of Big Data project, as it is independent\
+    \ of any pre-conditions or technologies. The paper shows the way to use the model\
+    \ with a working example. The model accomplishes every challenge related to Data\
+    \ Quality program aimed for Big Data. The main conclusion is that the model can\
+    \ be used as an appropriate way to obtain the Quality-in-Use levels of the input\
+    \ data of the Big Data analysis, and those levels can be understood as indicators\
+    \ of trustworthiness and soundness of the results of the Big Data analysis."
+  author: Jorge Merino and Ismael Caballero and Bibiano Rivas and Manuel Serrano and
+    Mario Piattini
+  doi: https://doi.org/10.1016/j.future.2015.11.024
+  keywords: Data Quality, Big Data, Measurement, Quality-in-Use, Model
+  title: A Data Quality in Use model for Big Data
+  year: '2016'
+- ENTRYTYPE: article
+  abstract: As the amount of data stored from industrial processes increases with
+    the demands of Industry 4.0, there is an increasing interest in finding uses for
+    the stored data. However, before the data can be used its quality must be determined
+    and appropriate regions extracted. Initially, such testing was done manually using
+    graphs or basic rules, such as the value of a variable. With large data sets,
+    such an approach will not work, since the amount of data to tested and the number
+    of potential rules is too large. Therefore, there is a need for automated segmentation
+    of the data set into different components. Such an approach has recently been
+    proposed and tested using various types of industrial data. Although the industrial
+    results are promising, there still remain many unanswered questions including
+    how to handle a priori knowledge, over- or undersegmentation of the data set,
+    and setting the appropriate thresholds for a given application. Solving these
+    problems will provide a robust and reliable method for determining the data quality
+    of a given data set.
+  author: Yuri A.W. Shardt and Xu Yang and Kevin Brooks and Andrei Torgashov
+  doi: https://doi.org/10.1016/j.ifacol.2020.12.103
+  keywords: data quality assessment, system identification, big data, Industry 4.0,
+    soft sensors
+  title: Data Quality Assessment for System Identification in the Age of Big Data
+    and Industry 4.0
+  year: '2020'
+- ENTRYTYPE: article
+  abstract: "Background\nThe need is growing to create medical big data based on the\
+    \ electronic health records collected from different hospitals. Errors for sure\
+    \ occur and how to correct them should be explored.\nMethods\nElectronic health\
+    \ records of 9,197,817 patients and 53,081,148 visits, totaling about 500 million\
+    \ records for 2006\u20132016, were transmitted from eight hospitals into an integrated\
+    \ database. We randomly selected 10% of patients, accumulated the primary keys\
+    \ for their tabulated data, and compared the key numbers in the transmitted data\
+    \ with those of the raw data. Errors were identified based on statistical testing\
+    \ and clinical reasoning.\nResults\nData were recorded in 1573 tables. Among these,\
+    \ 58 (3.7%) had different key numbers, with the maximum of 16.34/1000. Statistical\
+    \ differences (P\_<\_0.05) were found in 34 (58.6%), of which 15 were caused by\
+    \ changes in diagnostic codes, wrong accounts, or modified orders. For the rest,\
+    \ the differences were related to accumulation of hospital visits over time. In\
+    \ the remaining 24 tables (41.4%) without significant differences, three were\
+    \ revised because of incorrect computer programming or wrong accounts. For the\
+    \ rest, the programming was correct and absolute differences were negligible.\
+    \ The applicability was confirmed using the data of 2,730,883 patients and 15,647,468\
+    \ patient-visits transmitted during 2017\u20132018, in which 10 (3.5%) tables\
+    \ were corrected.\nConclusion\nSignificant magnitude of inconsistent data does\
+    \ exist during the transmission of big data from diverse sources. Systematic validation\
+    \ is essential. Comparing the number of data tabulated using the primary keys\
+    \ allow us to rapidly identify and correct these scattered errors."
+  author: Yi-Chia Lee and Ying-Ting Chao and Pei-Ju Lin and Yen-Yun Yang and Yu-Cih
+    Yang and Cheng-Chieh Chu and Yu-Chun Wang and Chin-Hao Chang and Shu-Lin Chuang
+    and Wei-Chun Chen and Hsing-Jen Sun and Hsin-Cheng Tsou and Cheng-Fu Chou and
+    Wei-Shiung Yang
+  doi: https://doi.org/10.1016/j.jfma.2021.12.024
+  keywords: Big data, Electronic health record, Evidence based healthcare management,
+    Validation study
+  title: Quality assurance of integrative big data for medical research within a multihospital
+    system
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "Spatiotemporal air quality datasets are typically collected hourly in\
+    \ monitoring stations deployed non-uniformly across a metropolitan city. These\
+    \ datasets are not only big, which poses challenges on the storage and processing\
+    \ capacity of centralized computing systems but also imbalanced and spatially\
+    \ heterogeneous, which may result in biased air quality prediction. To address\
+    \ these challenges, we designed and developed a parallel air quality prediction\
+    \ system equipped with a spatiotemporal data partitioning method, a distributed\
+    \ machine learning algorithm, Hadoop\u2019s distributed data storage platform\
+    \ and its resource scheduler/manager, and Spark\u2019s efficient and in-memory\
+    \ execution environment, which is suitable for running iterative algorithms, e.g.,\
+    \ machine learning. Our proposed spatiotemporal partitioning method accounted\
+    \ for imbalance and spatial heterogeneity features of big air quality data in\
+    \ predictive models, which comply with the load-balancing requirement of distributed\
+    \ computing systems. Distributed Random Forest algorithm in the H2O library of\
+    \ the Spark framework was selected as the distributed machine learning algorithm\
+    \ to develop the air quality predictive model. This algorithm is an ensemble forest\
+    \ with algorithm-level adjustments to perform as efficiently as possible for big\
+    \ imbalanced datasets. An application of the parallel quality prediction system\
+    \ for Tehran, Iran showed that the parallel prediction system had considerable\
+    \ speedup gain and improved both the overall accuracy and class precision of air\
+    \ quality prediction when working with imbalanced big spatiotemporal air quality\
+    \ datasets. A future research direction is to add data streaming and visualization\
+    \ functions to the system to provide rapid and reliable air quality prediction\
+    \ for supporting environmental health management."
+  author: Marjan Asgari and Wanhong Yang and Mahdi Farnaghi
+  doi: https://doi.org/10.1016/j.eti.2022.102776
+  keywords: Big spatiotemporal data, Distributed systems, Air quality prediction,
+    Distributed random forest algorithm, Imbalanced data
+  title: 'Spatiotemporal data partitioning for distributed random forest algorithm:
+    Air quality prediction using imbalanced big spatiotemporal data on spark distributed
+    framework'
+  year: '2022'
+- ENTRYTYPE: incollection
+  abstract: In recent years, the just-in-time (JIT) predictive models have attracted
+    considerable attention due to their ability to prevent degradation of prediction
+    accuracy. However, one of their practical limitations is expensive computation,
+    which becomes a major factor that prevents them from being used for big data quality
+    prediction. This is because the JIT modeling methods need to update the local
+    regression model using the relevant samples that are searched through the lineal
+    scan of the database during online operation. To solve this issue, the present
+    work proposes a novel hashing-based JIT (HbJIT) modeling method that is suitable
+    for big data quality prediction. In HbJIT, a family of locality-sensitive hash
+    functions is firstly used to hash big data into a set of buckets, in which similar
+    samples are grouped on themselves. During online prediction, HbJIT looks up multiple
+    buckets that have a high probability of containing similar samples of a query
+    object through the intelligent probing scheme, uses the data objects in the buckets
+    as the candidate set of the results, and then filters the candidate objects using
+    a linear scan. After filtering, the most relevant samples are used to construct
+    the local regression model to yield the prediction of the query object. By integrating
+    the multi-probe hashing strategy into the JIT learning framework, HbJIT can not
+    only deal with process nonlinearity and time-varying characteristics but also
+    is applicable to large-scale industrial processes. Experimental results on real-world
+    dataset have demonstrated that the proposed HbJIT is time-efficient in processing
+    large-scale datasets, and greatly reduces the online prediction time without compromising
+    on the prediction accuracy.
+  author: Xinmin Zhang and Jiang Zhai and Zhihuan Song and Yuan Li
+  doi: https://doi.org/10.1016/B978-0-323-85159-6.50280-3
+  keywords: Virtual sensor, soft-sensor, big data quality prediction, hashing-based
+    just-in-time modeling
+  title: Hashing-based just-in-time learning for big data quality prediction
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: Tourism research has marched into the big data arena and brought remarkable
+    developments. Despite the promising role of big data and increasing volume of
+    research, it is worth noting that current big data research in the tourism and
+    hospitality field is rather vague or insufficient, particularly from the perspectives
+    of its philosophical grounding, methodological approaches, and implications. This
+    article aims to provide a comprehensive review of big data research from the tourism
+    and hospitality literature. A content analysis of 146 big-data-related articles
+    identifies the research and methodological trends in these fields. The findings
+    reveal that big data have expanded the scope of tourism research. It offers useful
+    and practical knowledge for destination, hotel, revenue, and reputation management.
+    However, big data research is rather limited in methodologies, and there is a
+    need for more solid theoretical and philosophical footings for significant knowledge
+    generation.
+  author: Jiaying Lyu and Asif Khan and Sughra Bibi and Jin Hooi Chan and Xiaoguang
+    Qi
+  doi: https://doi.org/10.1016/j.jhtm.2022.03.014
+  keywords: Big data, Content analysis, Philosophy grounding, Methodological approaches,
+    Research focus
+  title: 'Big data in action: An overview of big data studies in tourism and hospitality
+    literature'
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: .nan
+  author: Shraddha Mainali and Soojin Park
+  doi: https://doi.org/10.1016/j.ccc.2022.07.008
+  keywords: Artificial intelligence, Big data, Neurocritical care, Machine learning
+  title: Artificial Intelligence and Big Data Science in Neurocritical Care
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "Urban greenness is essential for people's daily lives, while its contribution\
+    \ to air quality control is unclear. In this study, Streetview big data of urban\
+    \ greenness and air quality data (Air Quality Index, PM2.5, PM10, SO2, NO2, O3,\
+    \ CO) from 206 monitoring stations from 27 provincial capital cities in China\
+    \ were analyzed. The national averages for the sky, ground and middle-level (shrub\
+    \ and short trees) view greenness were 5.4%, 5.5%, and 15.4%, respectively, and\
+    \ the sky:ground:middle ratio was 2:2:6. Street-view/bird-view greenness ratio\
+    \ averaged at 1.1. Large inter-city variations were observed in all the greenness\
+    \ parameters, and the weak associations between all street-view parameters and\
+    \ bird-eye greenspace percentage (21%\u201373%) indicate their representatives\
+    \ of different aspects of green infrastructures. All air quality parameters were\
+    \ higher in winter than in summer, except O3. Over 90% of air quality variation\
+    \ could be explained by socioeconomics and geoclimates, suggesting that air quality\
+    \ control in China should first reduce efflux from social economics, while geoclimatic-oriented\
+    \ ventilation facilitation design is also critical. For different air quality\
+    \ components, greenness had most significant associations with NO2, O3 and CO,\
+    \ and street-view/bird-view ratio was the most powerful indicator of all greenness\
+    \ parameters. Pooled-data analysis at national level showed that street-view greenness\
+    \ was responsible for 2.3% of the air quality variations in the summer and 3.6%\
+    \ in the winter; however, when separated into different regions (North-South China;\
+    \ East-West China), the explaining power increased up to 16.2%. Increased NO2\
+    \ was accompanied with decreased O3, indicating NO titration effect. The higher\
+    \ O3 aligned with the higher street-view greenness, showing the greenness-related\
+    \ precursor risk for O3 pollution. Our study manifested that big internet data\
+    \ could identify the association of greenness and air pollution from street view\
+    \ scale, which can favor urban greenness management and evaluation in other regions\
+    \ where street-view data are available."
+  author: Wenjie Wang and Panli Tian and Jinghua Zhang and Evgenios Agathokleous and
+    Lu Xiao and Takayoshi Koike and Huimei Wang and Xingyuan He
+  doi: https://doi.org/10.1016/j.scitotenv.2022.153834
+  keywords: Air pollution, Redundancy ordination, Variation partitioning, Street-view
+    greenness, Geographical variation, Bird-view greenness
+  title: Big data-based urban greenness in Chinese megalopolises and possible contribution
+    to air quality control
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "Data are an extremely important asset. Governments around the world encourage\
+    \ big data sharing and trading to promote the big data economy. However, existing\
+    \ data trading platforms are not fully trusted. Such platforms face the problems\
+    \ of a single point of failure (SPOF), opaque transactions, uncontrollability,\
+    \ untraceability, and issues of data privacy. Several blockchain-based big data\
+    \ trading methods have been proposed; however, they do not adequately address\
+    \ the security issues introduced by dishonesty in the data provider and data agent\
+    \ or the fairness of data revenue distribution and price bargaining. In this paper,\
+    \ we propose a blockchain-based decentralized data trading system in which data\
+    \ trading is completed by smart contract-based data matching, price negotiation,\
+    \ and reward assigning. Moreover, the proposed data trading system evaluates the\
+    \ data quality on the basis of three metrics, records the evaluation results in\
+    \ a side-chain, and distributes the data users\u2019 application revenue to the\
+    \ data provider according to the evaluated data quality. We verify the security,\
+    \ usability, and efficiency of the proposed big data trading system."
+  author: Donghui Hu and Yifan Li and Lixuan Pan and Meng Li and Shuli Zheng
+  doi: https://doi.org/10.1016/j.comnet.2021.107994
+  keywords: Big data trading, Blockchain, Smart contract, Proxy re-encryption, Price
+    negotiation, Value reward
+  title: A blockchain-based trading system for big data
+  year: '2021'
+- ENTRYTYPE: article
+  abstract: Anecdotal evidence suggests that, despite the large variety of data, the
+    huge volume of generated data, and the fast velocity of obtaining data (i.e.,
+    big data), quality of big data is far from perfect. Therefore, many firms defer
+    collecting and integrating big data as they have concerns regarding the impact
+    of utilizing big data on data diagnosticity (i.e., retrieval of valuable information
+    from data) and firm decision making quality. In this study, we use the Organizational
+    Learning Theory and Wang and Strong's data quality framework to explore the impact
+    of processing big data on firm decision quality and the mediating role of data
+    quality (DQ) and data diagnosticity on this relationship. We validate the proposed
+    research model using survey data from 130 firms, obtained from data analysts and
+    IT managers. Results confirm the critical role of DQ in increasing data diagnosticity
+    and improving firm decision quality when processing big data; suggesting important
+    implications for practice and theory. Findings also reveal that while big data
+    utilization positively impacts contextual DQ, accessibility DQ, and representational
+    DQ, interestingly, it negatively impacts intrinsic DQ. Furthermore, findings show
+    that while intrinsic DQ, contextual DQ, and representational DQ significantly
+    increase data diagnosticity, accessibility DQ does not influence it. Most importantly,
+    the findings show that big data utilization does not significantly impact the
+    quality of firm decisions and it is fully mediated through DQ and data diagnosticity.
+    The results of this study contribute to practice by providing important guidelines
+    for managers to improve firm decision quality through the use of big data.
+  author: Maryam Ghasemaghaei and Goran Calic
+  doi: https://doi.org/10.1016/j.dss.2019.03.008
+  keywords: Big data utilization, Data quality, Decision quality, Data diagnosticity
+  title: Can big data improve firm decision quality? The role of data quality and
+    data diagnosticity
+  year: '2019'
+- ENTRYTYPE: article
+  abstract: "With the rapid development of economy and the frequent occurrence of\
+    \ air pollution incidents, the problem of air pollution has become a hot issue\
+    \ of concern to the whole people. The air quality big data is generally characterized\
+    \ by multi-source heterogeneity, dynamic mutability, and spatial\u2013temporal\
+    \ correlation, which usually uses big data technology for air quality analysis\
+    \ after data fusion. In recent years, various models and algorithms using big\
+    \ data techniques have been proposed. To summarize these methodologies of air\
+    \ quality study, in this paper, we first classify air quality monitoring by big\
+    \ data techniques into three categories, consisting of the spatial model, temporal\
+    \ model and spatial\u2013temporal model. Second, we summarize the typical methods\
+    \ by big data techniques that are needed in air quality forecasting into three\
+    \ folds, which are statistical forecasting model, deep neural network model, and\
+    \ hybrid model, presenting representative scenarios in some folds. Third, we analyze\
+    \ and compare some representative air pollution traceability methods in detail,\
+    \ classifying them into two categories: traditional model combined with big data\
+    \ techniques and data-driven model. Finally, we provide an outlook on the future\
+    \ of air quality analysis with some promising and challenging ideas."
+  author: Wei Huang and Tianrui Li and Jia Liu and Peng Xie and Shengdong Du and Fei
+    Teng
+  doi: https://doi.org/10.1016/j.inffus.2021.03.010
+  keywords: Air quality analysis, Spatio-temporal data, Data fusion, Big data techniques
+  title: 'An overview of air quality analysis by big data techniques: Monitoring,
+    forecasting, and traceability'
+  year: '2021'
+- ENTRYTYPE: article
+  abstract: "Despite the wide usage of big data in tourism and the hospitality sector,\
+    \ little research has been done to understand the role of organizations\u2019\
+    \ capability of managing big data in value creation. This study bridges this gap\
+    \ by investigating how big data management capabilities lead to service innovation\
+    \ and high online quality ratings. Instead of treating big data management as\
+    \ a whole, we access big data management capabilities at the strategic and operational\
+    \ level. Using a sample of 202 hotels in Pakistan, we collected the primary data\
+    \ for big data capabilities, knowledge creation and service innovation; the secondary\
+    \ data about quality rating were collected from Booking.com. Structural equation\
+    \ modelling through SmartPLS was used for data analysis. The results indicated\
+    \ that big data management capabilities lead to high online quality ratings through\
+    \ the mediation of knowledge creation and service innovation. We contribute to\
+    \ the current literature by empirically testing how strategic level big data capabilities\
+    \ enable the firm to add value in innovativeness and positive online quality ratings\
+    \ through acquiring, contextualizing, experimenting and applying big data."
+  author: Saqib Shamim and Yumei Yang and Najam Ul Zia and Mahmood Hussain Shah
+  doi: https://doi.org/10.1016/j.chb.2021.106777
+  keywords: Big data management, Dynamic capabilities, Service innovation, Knowledge
+    creation, Customer generated online quality rating, Hospitality
+  title: 'Big data management capabilities in the hospitality sector: Service innovation
+    and customer generated online quality ratings'
+  year: '2021'
+- ENTRYTYPE: article
+  abstract: The management of the exponential growth of data that Next Generation
+    Sequencing techniques produce has become a challenge for researchers that are
+    forced to delve into an ocean of complex data in order to extract new insights
+    to unravel the secrets of human diseases. Initially, this can be faced as a Big
+    Data-related problem, but the genomic data have particular and relevant challenges
+    that make them different from other Big Data working domains. Genomic data are
+    much more heterogeneous; they are spread in hundreds of repositories, represented
+    in multiple formats, and have different levels of quality. In addition, getting
+    meaningful conclusions from genomic data requires considering all of the relevant
+    surrounding knowledge that is under continuous evolution. In this scenario, the
+    precise identification of what makes Genome Data Management so different is essential
+    in order to provide effective Big Data-based solutions. Genomic projects require
+    dealing with the technological problems associated with data management, nomenclature
+    standards, and quality issues that only robust Information Systems that use Big
+    Data techniques can provide. The main contribution of this paper is to present
+    a Big Data-driven approach for managing genomic data, that is adapted to the particularities
+    of the domain and to show its applicability to improve genetic diagnoses, which
+    is the core of the development of accurate Precision Medicine.
+  author: "Ana Le\xF3n and \xD3scar Pastor"
+  doi: https://doi.org/10.1016/j.bdr.2021.100253
+  keywords: Big Data, Genomics, Computer science, Theory and methods
+  title: 'Enhancing Precision Medicine: A Big Data-Driven Approach for the Management
+    of Genomic Data'
+  year: '2021'
+- ENTRYTYPE: article
+  abstract: "This paper provides a complete guide to the development, testing, and\
+    \ monitoring of a low-cost big data cluster through a detailed step-by-step configuration\
+    \ and installation of Apache Hadoop using 9 Raspberry Pis 4B. For the tests and\
+    \ performance evaluation, were used the Terasort and TestDFSIO benchmarks. The\
+    \ benchmarks were performed in different sizes of data files (250 MB up to 1 GB)\
+    \ and different slaves nodes quantity (2, 4, and 8). The results showed that the\
+    \ combination of Raspberry Pi and Apache Hadoop can be a very efficient and robust\
+    \ solution to get a low-cost big data cluster, considering its costs/benefits.\
+    \ Using a Raspberry Pi 3B+ as a monitoring server, we installed the Zabbix and\
+    \ Grafana tools, making it possible to collect important information in real-time,\
+    \ helping to better monitoring of the cluster\u2019s devices and better visualization\
+    \ of the behavior and performance of the cluster."
+  author: "Ant\xF4nio Jos\xE9 Alves Neto and Jos\xE9 Apr\xEDgio Carneiro Neto and\
+    \ Edward David Moreno"
+  doi: https://doi.org/10.1016/j.compeleceng.2022.108403
+  keywords: Apache Hadoop, Big data, Cluster, Grafana, Raspberry Pi, Step-by-step,
+    Terasort, TestDFSIO, Zabbix
+  title: The development of a low-cost big data cluster using Apache Hadoop and Raspberry
+    Pi. A complete guide
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: In the big data era, large amounts of data are under generation and accumulation
+    in various industries. However, users usually feel hindered by the data quality
+    issues when extracting values from the big data. Thus, data quality issues are
+    gaining more and more attention from data quality management analysts. Cutting-edge
+    solutions like data ETL, data cleaning, and data quality monitoring systems have
+    many deficiencies in capability and efficiency, making it difficult to cope with
+    complicated situations on big data. These problems inspire us to build SparkDQ,
+    a generic distributed data quality management model and framework that provides
+    a series of data quality detection and repair interfaces. Users can quickly build
+    custom tasks of data quality computing for various needs by utilizing these interfaces.
+    In addition, SparkDQ implements a set of algorithms that in a parallel manner
+    with optimizations. These algorithms aim at various data quality goals. We also
+    propose several system-level optimizations, including the job-level optimization
+    with multi-task execution scheduling and the data-level optimization with data
+    state caching. The experimental evaluation shows that the proposed distributed
+    algorithms in SparkDQ run up to 12 times faster compared to the corresponding
+    stand-alone serial and multi-thread algorithms. Compared with the cutting-edge
+    distributed data quality solution Apache Griffin, SparkDQ has more features, and
+    its execution time is only around half of Apache Griffin on average. SparkDQ achieves
+    near-linear data and node scalability.
+  author: Rong Gu and Yang Qi and Tongyu Wu and Zhaokang Wang and Xiaolong Xu and
+    Chunfeng Yuan and Yihua Huang
+  doi: https://doi.org/10.1016/j.jpdc.2021.05.012
+  keywords: Parallel data quality algorithms, Distributed system, Data quality management
+    system, Multi-tasks scheduling, Big data
+  title: 'SparkDQ: Efficient generic big data quality management on distributed data-parallel
+    computation'
+  year: '2021'
+- ENTRYTYPE: article
+  abstract: The essence of an information system lies in the data; if it is not of
+    good quality or not sufficiently protected, the consequences will undoubtedly
+    be harmful. Quality and Security are two essential aspects that add value to data
+    and their implementation has become a real need and must be adopted before any
+    data exploitation. Due to the high volume of data, their diversity and their rapid
+    generation, effective implementation of such systems requires well thought out
+    mechanisms and strategies. This paper provides an overview of Data Quality and
+    Data Security in a Big Data context. We want through this paper to highlight the
+    conflicts that may exist during the implementation of data security and data quality
+    management systems. Such a conflict makes the complexity greater and requires
+    new adapted solutions.
+  author: M. TALHA and A. ABOU {EL KALAM} and N. ELMARZOUQI
+  doi: https://doi.org/10.1016/j.procs.2019.04.127
+  keywords: Big Data, Data Quality, Data Security, Trade-off between Quality, Security
+  title: 'Big Data: Trade-off between Data Quality and Data Security'
+  year: '2019'
+- ENTRYTYPE: article
+  abstract: Big data analytics (BDA) adoption has gained attention in both practical
+    and theoretical circles owing to the opportunities and advantages that can be
+    reaped from it. In theory, the majority of researchers have evidenced the benefits
+    of BDA, although barriers to its adoption have also been mentioned. This study
+    draws upon the technology-organisation-environment framework and resource-based
+    view theory to propose an integrated model that examines the drivers and impact
+    of BDA adoption in the retail industry in Jordan. The proposed single model encapsulates
+    the aspects of BDA adoption and performance. The study makes use of an online
+    questionnaire survey to collect the required data, and the research model is eventually
+    validated based on 132 responses gathered from the retail industry in Jordan.
+    The findings highlight two major observations. The first is that relative advantage,
+    organisational readiness, top management support, government support, data variety
+    and data velocity all have a significant influence over BDA adoption. The second
+    observation is that a significant association exists between BDA adoption and
+    firm performance, providing information on the way firms can enhance their BDA
+    adoption for enhanced performance. This study contributes to literature dedicated
+    to examining BDA in terms of its drivers and impact on performance and can be
+    used as a reference in developing nations.
+  author: Abdalwali Lutfi and Mahmaod Alrawad and Adi Alsyouf and Mohammed Amin Almaiah
+    and Ahmad Al-Khasawneh and Akif Lutfi Al-Khasawneh and Ahmad Farhan Alshira'h
+    and Malek Hamed Alshirah and Mohamed Saad and Nahla Ibrahim
+  doi: https://doi.org/10.1016/j.jretconser.2022.103129
+  keywords: Big data analytic (BDA), Technology adoption, Retail industry, Data volume,
+    Data variety, Data velocity, Diffusion of innovations model, RBV theory
+  title: 'Drivers and impact of big data analytic adoption in the retail industry:
+    A quantitative investigation applying structural equation modeling'
+  year: '2023'
+- ENTRYTYPE: article
+  abstract: Big data analytics and decision-making are critical to project success.
+    Therefore, this study aims to investigate the impact of big data analytics on
+    project success and the moderating effect of decision-making from the resource-based
+    view perspective. The study adopted a survey instrument and collected data from
+    135 respondents engaged in big data analytics in the IT and telecommunications
+    sector of Pakistan. The findings identify implications based on the significant
+    positive impact of big data analytics on project success as well as enhancement
+    of relationships through the interaction of decision-making between big data analytics
+    and the three dimensions of project success.
+  author: Riaz Ahmed and Sumayya Shaheen and Simon P. Philbin
+  doi: https://doi.org/10.1016/j.jengtecman.2022.101697
+  keywords: Big data analytics, Decision-making, Project success, Resource-based view,
+    IT and telecommunication
+  title: The role of big data analytics and decision-making in achieving project success
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "Nowadays, using their onboard built-in sensors and communication devices,\
+    \ connected vehicles (CVs) can perform numerous measurements (speed, temperature,\
+    \ fuel consumption, etc.) and transmit them, in a real-time fashion, to dedicated\
+    \ infrastructure, usually via 4G/5G wireless communications. This raises many\
+    \ opportunities to develop new innovative telematics services, including, among\
+    \ others, driver safety, customer experience, location-based services and infotainment.\
+    \ Indeed, it is expected that there will be roughly 2 billion connected cars by\
+    \ the end of 2025 on the world\u2019s roadways, where each of which can produce\
+    \ up to 30\_terabytes of data per day. Managing this big automotive data, in real\
+    \ and batch modes, imposes tight constraints on the underlying data management\
+    \ platform. To contribute to this research area, in this paper, we report on a\
+    \ real, in-production automotive big data platform; specifically, the one deployed\
+    \ by Groupe PSA (a French car manufacturer known also as Peugeot-Citro\xEBn).\
+    \ In particular, we present the technologies and open-source products used within\
+    \ the different components of this CV platform to gather, store, process, and\
+    \ leverage big automotive data. The proposed architecture is then assessed through\
+    \ realistic experiments, and the obtained results are reported and analyzed. Finally,\
+    \ we also provide examples of deployed automotive applications and reveal the\
+    \ implementation details of one of them (an eco-driving service)."
+  author: "Ahmed Mostefaoui and Mohammed Amine Merzoug and Amir Haroun and Anthony\
+    \ Nassar and Fran\xE7ois Dessables"
+  doi: https://doi.org/10.1016/j.future.2022.04.020
+  keywords: Connected vehicles, V2I communication, Automotive big data, Big data architecture,
+    Groupe PSA
+  title: 'Big data architecture for connected vehicles: Feedback and application examples
+    from an automotive group'
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: Battery is one of the most important and costly devices in electric vehicles
+    (EVs). Developing an efficient battery management method is of great significance
+    to enhancing vehicle safety and economy. Recently developed big-data and cloud
+    platform computing technologies bring a bright perspective for efficient utilization
+    and protection of vehicle batteries. However, a reliable data transmission network
+    and a high-quality cloud battery dataset are indispensable to enable this benefit.
+    This paper makes the first effort to systematically solve data quality problems
+    in cloud-based vehicle battery monitoring and management by developing a novel
+    integrated battery data cleaning framework. In the first stage, the outlier samples
+    are detected by analyzing the temporal features in the battery data time series.
+    The outlier data in the dataset can be accurately detected to avoid their impacts
+    on battery monitoring and management. Then, the abnormal samples, including the
+    noise polluted data and missing value, are restored by a novel future fusion data
+    restoring model. The real electric bus operation data collected by a cloud-based
+    battery monitoring and management platform are used to verify the performance
+    of the developed data cleaning method. More than 93.3% of outlier samples can
+    be detected, and the data restoring error can be limited to 2.11%, which validates
+    the effectiveness of the developed methods. The proposed data cleaning method
+    provides an effective data quality assessment tool in cloud-based vehicle battery
+    management, which can further boost the practical application of the vehicle big
+    data platform and Internet of vehicle.
+  author: Shuangqi Li and Hongwen He and Pengfei Zhao and Shuang Cheng
+  doi: https://doi.org/10.1016/j.apenergy.2022.119292
+  keywords: Big data, Internet of vehicle, Electric vehicles, Data cleaning, Battery
+    management system, Battery state estimation
+  title: Data cleaning and restoring method for vehicle battery big data platform
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: Organizations are looking for ways to harness the power of big data (BD)
+    to improve their decision making. Despite its significance the effects of BD on
+    decision-making quality has been given scant attention in the literature. In this
+    paper factors influencing decision-making based on BD are identified using a case
+    study. BD is collected from different sources that have various data qualities
+    and are processed by various organizational entities resulting in the creation
+    of a big data chain. The veracity (manipulation, noise), variety (heterogeneity
+    of data) and velocity (constantly changing data sources) amplified by the size
+    of big data calls for relational and contractual governance mechanisms to ensure
+    BD quality and being able to contextualize data. The case study reveals that taking
+    advantage of big data is an evolutionary process in which the gradually understanding
+    of the potential of big data and the routinization of processes plays a crucial
+    role.
+  author: Marijn Janssen and Haiko {van der Voort} and Agung Wahyudi
+  doi: https://doi.org/10.1016/j.jbusres.2016.08.007
+  keywords: Big data, Big data analytics, Big data chain, E-government, Governance,
+    Decision-making, Decision-making quality
+  title: Factors influencing big data decision-making quality
+  year: '2017'
+- ENTRYTYPE: article
+  abstract: 'Ecosystem services are essential for human well-being, but are currently
+    facing many natural and anthropogenic threats. Modeling and mapping ecosystem
+    services helps us mitigate, adapt to, and manage these pressures, but overall
+    the field faces multiple major limitations. These include: 1) data availability,
+    2) understanding, estimation, and reporting of uncertainties, and 3) connecting
+    socio-ecological aspects of ecosystem services. Recent technological advancements
+    in machine learning coupled with rising availability of big data, offer an opportunity
+    to overcome these challenges. We review studies utilizing machine learning and/or
+    big data to overcome these limitations. We collect 56 papers that exemplify the
+    current use of machine learning and big data to address the three identified gaps
+    in the ecosystem service field. We find that although the use of these tools in
+    ecosystem service research is relatively new, it is growing quickly. Big data
+    can directly address data gaps, especially as new big data resources relevant
+    to ecosystem service mapping become available (ex. social media data). Some properties
+    of machine learning can also contribute to addressing data gaps in data sparse
+    environments. Also, many machine learning algorithms can estimate and consider
+    uncertainty, whereas big data can significantly increase sample size, reducing
+    uncertainties in some situations. Some big data sources, like crowdsourced data,
+    provide direct sources of social behaviors and preferences that relate to ecosystem
+    service demand, thus allowing researchers to connect social and biophysical aspects
+    of ecosystem services. Machine learning algorithms provide an effective and efficient
+    tool for handling these large nonlinear socio-ecological datasets in tandem, giving
+    researchers the ability to more realistically model and map ecosystem services
+    without relying on oversimplified proxies or linear algorithms. Despite these
+    opportunities, implementation is still lacking and limitations still hinder use.'
+  author: Kyle Manley and Charity Nyelele and Benis N. Egoh
+  doi: https://doi.org/10.1016/j.ecoser.2022.101478
+  keywords: "Ecosystem services, Machine learning, Big data, Nature\u2019s contribution\
+    \ to people, Modeling, Socio-ecological systems, Uncertainty"
+  title: A review of machine learning and big data applications in addressing ecosystem
+    service research gaps
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: The application of big data in the energy sector is considered as one
+    of the main elements of Energy Internet. Crucial and promising challenges exist
+    especially with the integration of renewable energy sources and smart grids. The
+    ability to collect data and to properly use it for better decision-making is a
+    key feature; in this work, the benefits and challenges of implementing big data
+    analytics for renewable energy power stations are addressed. A framework was developed
+    for the potential implementation of big data analytics for smart grids and renewable
+    energy power utilities. A five-step approach is proposed for predicting the smart
+    grid stability by using five different machine learning methods. Data from a decentralized
+    smart grid data system consisting of 60,000 instances and 12 attributes was used
+    to predict the stability of the system through three different machine learning
+    methods. The results of fitting the penalized linear regression model show an
+    accuracy of 96% for the model implemented using 70% of the data as a training
+    set. Using the random forest tree model has shown 84% accuracy, and the decision
+    tree model has shown 78% accuracy. Both the convolutional neural network model
+    and the gradient boosted decision tree model yielded 87% for the classification
+    model. The main limitation of this work is that the amount of data available in
+    the dataset is considered relatively small for big data analytics; however the
+    cloud computing and real-time event analysis provided was suitable for big data
+    analytics framework. Future research should include bigger datasets with variety
+    of renewable energy sources and demand across more countries.
+  author: Noha Mostafa and Haitham Saad Mohamed Ramadan and Omar Elfarouk
+  doi: https://doi.org/10.1016/j.mlwa.2022.100363
+  keywords: Energy internet, Renewable energy, Smart grid, Big data analytics, Machine
+    learning, Predictive models
+  title: Renewable energy management in smart grids by using big data analytics and
+    machine learning
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "The introduction and use of \u2018big data and analytics\u2019 is an\
+    \ on-going issue of discussion in health sectors globally. Healthcare systems\
+    \ of developed countries are trying to create more value and better healthcare\
+    \ through data and use of big data technologies. With an increasing number of\
+    \ articles identifying the value creation of big data and analytics for clinical\
+    \ decision-making, this paper examines how big data is applied, or not applied,\
+    \ in clinical practice. Using social representation theory as a theoretical foundation\
+    \ the paper explores people's perceptions of big data across all levels (policy\
+    \ making, planning, funding, and clinical care) of the New Zealand healthcare\
+    \ sector. The findings show that although adoption of big data technologies is\
+    \ planned for population health and health management, the potential of big data\
+    \ for clinical care has yet to be explored in the New Zealand context. The findings\
+    \ also highlight concern over data quality. The paper provides recommendations\
+    \ for policy and practice particularly around the need for engagement and participation\
+    \ of all levels to discuss data quality as well as big-data-based changes such\
+    \ as precision medicine and technology-assisted clinical decision-making tools.\
+    \ Future avenues of research are suggested."
+  author: Kasuni Weerasinghe and Shane L. Scahill and David J. Pauleen and Nazim Taskin
+  doi: https://doi.org/10.1016/j.techfore.2021.121222
+  keywords: Analytics, Clinical decision-making, Big data, Healthcare, Social representation
+    theory
+  title: 'Big data analytics for clinical decision-making: Understanding health sector
+    perceptions of policy and practice'
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "Both accounting firms and regulators recognize the importance of human\
+    \ capital in the audit function, yet we know little about whether and how the\
+    \ level of professionally qualified human capital varies across offices of an\
+    \ audit firm and whether it is associated with audit quality. In this paper, we\
+    \ examine the association between office professionally qualified human capital\
+    \ and audit quality. Using hand-collected data on Big 4 audit firm office CPA\
+    \ levels from 30 U.S. cities, we find that offices with relatively more professionally\
+    \ qualified human capital deliver higher quality audits, with this benefit being\
+    \ more pronounced for audits performed during busy season than for non-busy season\
+    \ audits. The results underscore the importance of the availability of professionally\
+    \ qualified human capital in an audit office to the office\u2019s audit quality.\
+    \ Our finding of CPA levels being an office-level audit quality indicator will\
+    \ potentially help the PCAOB in their ongoing Audit Quality Indicator (AQI) project,\
+    \ whose goal is to assist audit firms, clients, and investors in measuring audit\
+    \ quality. Furthermore, the results lend credibility toward the CPA designation,\
+    \ which helps justify the AICPA\u2019s, NASBA\u2019s, and state Accountancy Boards\u2019\
+    \ regulatory roles of admitting and licensing qualified candidates."
+  author: Albert L. Nagy and Matthew G. Sherwood and Aleksandra B. Zimmerman
+  doi: https://doi.org/10.1016/j.jaccpubpol.2022.107018
+  keywords: .nan
+  title: CPAs and Big 4 office audit quality
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: Angelica sinensis is a kind of traditional Chinese medicine with very
+    good blood nourishing effect, and it is cultivated in many regions of China. But
+    with the increasingly severe climate, angelica cultivation has become a big problem.
+    Therefore, this paper starts from the soil microorganisms of angelica planting,
+    and studies the influence of soil biodiversity and angelica planting in the context
+    of big data. This paper proposes a Hadoop system for big data analysis, combining
+    the biocommunity characteristics and metagenomes of soil microorganisms. It then
+    calculates the distance between samples and generates a dissimilarity matrix.
+    Finally, this paper proposes a soil optimization method for angelica planting
+    based on big data analysis of soil microorganisms. In order to optimize the Angelica
+    planting soil designed in this paper, a soil microbial genome comparison experiment
+    and a big data concurrent control test experiment were designed in this paper.
+    It then analyzes the data obtained from the experiment, and the results of the
+    analysis are used to optimize the soil for angelica planting. It finally compares
+    the soil method of Angelica planting designed in this paper with the traditional
+    Angelica planting method. The experimental results show that the survival rate
+    of Angelica sinensis planted by the soil optimization method based on big data
+    analysis of soil microorganisms has increased by 16.09% compared with the traditional
+    Angelica sinensis planting site. The growth rate of Angelica sinensis planted
+    by the soil optimization method based on big data analysis of soil microorganisms
+    increased by 9.64% compared with the traditional Angelica sinensis planting area.
+  author: Yinan Peng and Ze Ye and Peng Xi and Hongshan Qi and Bin Ji and Zhiye Wang
+  doi: https://doi.org/10.1016/j.seta.2022.102674
+  keywords: Big data, Soil microorganisms, Biodiversity analysis, Angelica cultivation,
+    Hadoop systems, Metagenome research
+  title: The relationship between soil microbial diversity and angelica planting based
+    on network big data
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: This paper investigates the impact of different supply chain members invest
+    in big data service on profits by developing game-theoretic models for a dual-channel
+    supply chain consisting of one manufacturer and one retailer. We consider the
+    difference between big data service impacting both channels and impacting only
+    one (traditional retail channel or online direct marketing channel). The results
+    show that whether the manufacturer or the retailer invests in big data service,
+    the impact of big data service on two channels at the same time is more attractive
+    to the manufacturer and the retailer than just one channel. There are three models
+    of investing in big data services that only affect a single channel, resulting
+    in unreasonable pricing decisions and big data service level. In the other three
+    models, when the fixed cost of big data service investment is large, the manufacturer
+    and the retailer are reluctant to invest in big data service. When the investment
+    cost is small, both parties are willing to invest in big data service. This will
+    lead to the manufacturer and retailer making different choices, and the manufacturer
+    as the leader will adopt the cost-sharing strategy to motivate the retailer to
+    agree to choose the same model with the manufacturer. However, when the investment
+    cost of big data services is moderate, the manufacturer and the retailer will
+    choose the manufacturer to invest in big data service. Moreover, the manufacturer
+    and the retailer will not choose the model where the manufacturer invests in big
+    data service only affect the online direct marketing channel, because this model
+    cannot maximize profit of them. Finally, according to the conclusion, management
+    suggestions and enlightenment are obtained.
+  author: Han Song and Yuxin Shu and Ying Dai and Lin Zhou and Haiyan Li
+  doi: https://doi.org/10.1016/j.cie.2022.108423
+  keywords: Big data service, Dual-channel supply chain, Cost-sharing, Game theory
+  title: Big data service investment choices in a manufacturer-led dual-channel supply
+    chain
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "In the absence of a comprehensive, representative, and attribute-rich\
+    \ population, a spatial microsimulation is necessary to simulate or reconstruct\
+    \ a population for use in the analysis of complex mobility on the railways. Novel\
+    \ consumer datasets called \u2018big-data\u2019 are exhaustive but they only reveal\
+    \ a subset of the wider population who consume a specific digital service. Further,\
+    \ big-data are measured for a particular purpose and so do not have the broad\
+    \ spectrum of attributes required for their wider application. Harnessing big-data\
+    \ by spatial microsimulation has the potential to resolve the above shortcomings.\
+    \ This paper explores the relative merits of different spatial microsimulation\
+    \ methodologies, and a case study illustrates how best to simulate a micro-population\
+    \ linking rail ticketing big-data with the 2011 Census commute to work data and\
+    \ a National Rail Travel Survey (NRTS). The result is a representative attribute-rich\
+    \ micro-level population, which is likely to have a significant impact on the\
+    \ quality of inputs to strategic, tactical and operational rail-sector analysis\
+    \ planning models."
+  author: Eusebio Odiari and Mark Birkin
+  doi: https://doi.org/10.1016/j.urbmob.2022.100027
+  keywords: Spatial microsimulation, Population synthesis, Micro-level attributes,
+    Railways, Big data, Consumer data, Railway ticketing, Passenger mobility
+  title: Simulating micro-level attributes of railway passengers using big data
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: 'Big data changed the way in which we collect and analyze data. In particular,
+    the amount of available information is constantly growing and organizations rely
+    more and more on data analysis in order to achieve their competitive advantage.
+    However, such amount of data can create a real value only if combined with quality:
+    good decisions and actions are the results of correct, reliable and complete data.
+    In such a scenario, methods and techniques for the Data Quality assessment can
+    support the identification of suitable data to process. If for traditional database
+    numerous assessment methods are proposed, in the Big Data scenario new algorithms
+    have to be designed in order to deal with novel requirements related to variety,
+    volume and velocity issues. In particular, in this paper we highlight that dealing
+    with heterogeneous sources requires an adaptive approach able to trigger the suitable
+    quality assessment methods on the basis of the data type and context in which
+    data have to be used. Furthermore, we show that in some situations it is not possible
+    to evaluate the quality of the entire dataset due to performance and time constraints.
+    For this reason, we suggest to focus the Data Quality assessment only on a portion
+    of the dataset and to take into account the consequent loss of accuracy by introducing
+    a confidence factor as a measure of the reliability of the quality assessment
+    procedure. We propose a methodology to build a Data Quality adapter module, which
+    selects the best configuration for the Data Quality assessment based on the user
+    main requirements: time minimization, confidence maximization, and budget minimization.
+    Experiments are performed by considering real data gathered from a smart city
+    case study.'
+  author: "Danilo Ardagna and Cinzia Cappiello and Walter Sam\xE1 and Monica Vitali"
+  doi: https://doi.org/10.1016/j.future.2018.07.014
+  keywords: Data quality, Big data, Context-awareness, Data profiling, DQ assessment
+  title: Context-aware data quality assessment for big data
+  year: '2018'
+- ENTRYTYPE: article
+  abstract: "Human beings share their good or bad opinions about subjects, products,\
+    \ and services through internet and social networks. The ability to effectively\
+    \ analyze this kind of information is now seen as a key competitive advantage\
+    \ to better inform decisions. In order to do so, organizations employ Sentiment\
+    \ Analysis (SA) techniques on these data. However, the usage of social media around\
+    \ the world is ever-increasing, which considerably accelerates massive data generation\
+    \ and makes traditional SA systems unable to deliver useful insights. Such volume\
+    \ of data can be efficiently analyzed using the combination of SA techniques and\
+    \ Big Data technologies. In fact, big data is not a luxury but an essential necessary\
+    \ to make valuable predictions. However, there are some challenges associated\
+    \ with big data such as quality that could highly affect the SA systems\u2019\
+    \ accuracy that use huge volume of data. Thus, the quality aspect should be addressed\
+    \ in order to build reliable and credible systems. For this, the goal of our research\
+    \ work is to consider Big Data Quality Metrics (BDQM) in SA that rely of big data.\
+    \ In this paper, we first highlight the most eloquent BDQM that should be considered\
+    \ throughout the Big Data Value Chain (BDVC) in any big data project. Then, we\
+    \ measure the impact of BDQM on a novel SA method accuracy in a real case study\
+    \ by giving simulation results."
+  author: Imane El Alaoui and Youssef Gahi
+  doi: https://doi.org/10.1016/j.procs.2019.11.007
+  keywords: Big Data Quality Metrics, Big Data Value Chain, Big Data, Big Social Data,
+    Sentiment Analysis, Opinion Mining
+  title: The Impact of Big Data Quality on Sentiment Analysis Approaches
+  year: '2019'
+- ENTRYTYPE: article
+  abstract: "In today's working environment, managers are continuously faced with\
+    \ abundant data that requires them to deal with it in a vigilant and rigorous\
+    \ way to produce insights and tackle opportunities that can sustain a competitive\
+    \ advantage. Big data analytics can support efficient and effective companies\u2019\
+    \ operations with superior management control. Our research objective is to identify\
+    \ the initial architecture of the big data implementation process and propose\
+    \ a novel paradigm architecture that will focus on internal and external data\
+    \ analysis that can bring greater value to decision makers. Untapped external\
+    \ data can represent a mine of quality information combining a variety of new\
+    \ data, outdated data, behavioral data, structured data, unstructured data translating\
+    \ to a set of reliable indicators that can contribute to efficient performance\
+    \ measurement."
+  author: Sara Dehbi and Houda Chakir Lamrani and Touhfa Belgnaoui and Tarik Lafou
+  doi: https://doi.org/10.1016/j.procs.2022.07.058
+  keywords: Big Data, Management control, Data Analytic, BDA, Performance measurement
+  title: Big Data Analytics and Management control
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "Drawing on the resource-based view, we examine how big data use impacts\
+    \ firm legitimacy. Using a panel dataset of the Chinese firms over the period\
+    \ 2012\u20132019, our Tobit instrumental variable regression results show a positive\
+    \ impact of big data on firm legitimacy. In particular, we find that an increase\
+    \ of one point in big data utilization is associated with a probability of 27.4\_\
+    % increase in firm legitimacy. This effect is found stronger for firms in highly\
+    \ competitive industries. This study contributes to the nascent literature on\
+    \ big data and sheds light on how firms can take advantage of data-driven insights\
+    \ to manage the organizational environment."
+  author: Abubakr Saeed and Hammad Riaz and Muhammad Saad Baloch
+  doi: https://doi.org/10.1016/j.techfore.2022.121847
+  keywords: Big data utilization, Firm legitimacy, Information, Data-driven insights,
+    China, Tobit instrumental variable regression
+  title: Does big data utilization improve firm legitimacy?
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "Internet of Things (IoT) technology, which has made manufacturing processes\
+    \ more smart, efficient and sustainable, has received increasing attention from\
+    \ the industry and academia. As one of the most important applications for IoT,\
+    \ sustainable smart manufacturing enables lower cost, higher productivity and\
+    \ flexibility, better quality and sustainability during the product lifecycle\
+    \ management. Over the years, numerous enterprises have promoted the implementation\
+    \ of both sustainable and smart manufacturing. In the Industry 4.0 context, a\
+    \ \u2018digital twin\u2019 is widely used to achieve smart manufacturing, although\
+    \ this approach often ignores sustainability. This study aims to simultaneously\
+    \ consider digital twin and big data technologies to propose a sustainable smart\
+    \ manufacturing strategy based on information management systems for energy-intensive\
+    \ industries (EIIs) from the product lifecycle perspective. The integration of\
+    \ digital twin and big data provides key technologies for data acquisition in\
+    \ energy-intensive production environments, prediction and mining in uncertain\
+    \ environments as well as real-time control in complex working conditions. Moreover,\
+    \ a digital twin-driven operation mechanism and an overall framework of big data\
+    \ cleansing and integration are designed to explain and illustrate sustainable\
+    \ smart manufacturing. Two case studies from Southern and Northern China demonstrate\
+    \ the efficacy of the strategy, with the results showing that Companies A and\
+    \ B achieved the goals of energy saving and cost reduction after implementing\
+    \ the proposed strategy. By applying an energy management system, the unit energy\
+    \ consumption and energy cost of production in Company A decreased by at least\
+    \ 3%. In addition, the \u2018cradle-to-gate\u2019 lifecycle big data analysis\
+    \ indicates that the costs of environmental protection in Company B decrease significantly.\
+    \ Finally, the effectiveness of the proposed strategy and some managerial insights\
+    \ for EIIs in China are analysed and discussed."
+  author: Shuaiyin Ma and Wei Ding and Yang Liu and Shan Ren and Haidong Yang
+  doi: https://doi.org/10.1016/j.apenergy.2022.119986
+  keywords: Internet of Things, Digital twin, Big data-driven, Information management
+    systems, Sustainable and smart manufacturing strategy, Energy-intensive industries
+  title: Digital twin and big data-driven sustainable smart manufacturing based on
+    information management systems for energy-intensive industries
+  year: '2022'
+- ENTRYTYPE: incollection
+  abstract: "Over the past twodecades, healthcare providers across the world have\
+    \ adopted digital methods for capturing clinical and administrative information.\
+    \ Clinicians take contemporaneous records of their interactions with patients,\
+    \ so many health service providers have accrued vast repositories of longitudinally\
+    \ collected data. These data, coupled with advances in data extraction methods,\
+    \ computer processing power, and linkage to nonhealth public services data, now\
+    \ provide child and adolescent mental health researchers unique opportunities\
+    \ for tackling a broad range of clinical questions; especially those where the\
+    \ considerations of scale and generalizability make individually funded studies\
+    \ unaffordable. However, these \u201Cbig\u201D data have their limitations. Best\
+    \ practice requires clinicians, informaticians, and data scientists to work together,\
+    \ so assumptions over data quality or validity are not misplaced. This chapter\
+    \ explains why the evidence base for child and adolescent mental healthcare needs\
+    \ big data applications as well as conventional research, to move the field forward.\
+    \ This chapter provides illustrations of big data applications to child and adolescent\
+    \ mental healthcare, primarily from England and the United Kingdom, but also offers\
+    \ a section on the global perspective. This chapter also reviews the methodological\
+    \ strengths and weaknesses of big data and describes the ethical and governance\
+    \ implications for their use."
+  author: Alice Wickersham and Johnny Downs
+  doi: https://doi.org/10.1016/B978-0-323-91709-4.00005-6
+  keywords: Big data, Child and adolescent mental health, Data linkage, Electronic
+    healthcare records, Natural language processing
+  title: Chapter 3 - Clinical applications of big data to child and adolescent mental
+    health care
+  year: '2023'
+- ENTRYTYPE: article
+  abstract: The period of Big Data examination has started in many businesses inside
+    created nations. With expanding headway of Internet technology, expanding measures
+    of data are spilling into contemporary associations. Data are getting bigger and
+    more muddled because of the nonstop age of data from numerous gadgets and sources.
+    In this investigation, we have examined the banking area's inconsistencies because
+    of big data technology, inconsistencies in credit card and afterwards the path
+    how to remove these inconsistencies.
+  author: Vinaya Keskar and Jyoti Yadav and Ajay Kumar
+  doi: https://doi.org/10.1016/j.matpr.2021.05.597
+  keywords: Credit card, Validation, LUHN, Big data, Bank
+  title: Perspective of anomaly detection in big data for data quality improvement
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "This paper aims to engage with the ongoing debates on the role of planning\
+    \ in future smart cities, to make a case for a reconceptualization of the technocentric\
+    \ notion of the smart city, and to elevate the position of city planning within\
+    \ the smart-city discourse. The central argument made is that the smart city could\
+    \ exploit the synergies between city planning and three techno-scientific domains\
+    \ including Big Data, Geographic Information Science and Systems, and Data Science\u2014\
+    which collectively constitute an emerging field known as Geospatial Artificial\
+    \ Intelligence (GeoAI)\u2014 to meet four overarching policy goals: 1) to enhance\
+    \ the efficiency of urban services and functions; 2) to improve quality of life\
+    \ for all urban citizens; 3) to address the pressing societal, ecological and\
+    \ economic challenges that could plague urban systems on different levels; and,\
+    \ 4) to contribute to the production of spatial data, information and knowledge\
+    \ on human-urban dynamics. In addition, the paper defines a human-centered conceptual\
+    \ framework illustrating how the cross-pollination between city planning and the\
+    \ three techno-scientific fields could enhance the planning practice and accomplish\
+    \ the smart-city policy goals. The methodology employed in this study entails\
+    \ a systematic review of the literature. In addition to discussing the latest\
+    \ achievements as well as the progress made on the nexus of city planning and\
+    \ GeoAI, the paper also highlights the barriers to the application of GeoAI in\
+    \ the planning, design and management of smart cities and identifies potential\
+    \ avenues for future research."
+  author: Reza Mortaheb and Piotr Jankowski
+  doi: https://doi.org/10.1016/j.jum.2022.08.001
+  keywords: Smart city, AI in urban planning, Urban digital twins, Geographic information
+    science and systems, Sustainable urban development
+  title: 'Smart city re-imagined: City planning and GeoAI in the age of big data'
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "This research takes manufacturing enterprises with big data capability\
+    \ as the research object, based on organizational decision-making theory and planned\
+    \ behavior theory, the mediation effect model of \u201Ccapability-intention-behavior\u201D\
+    \ is constructed. It uses econometric models to explore the impact and conduction\
+    \ process of big data capability on green process innovation. The results show\
+    \ that big data capability have an obvious direct effect on green process innovation.\
+    \ By examining the mediation effect test, we find that green innovation intention\
+    \ partially mediates the relationship between big data capability and green process\
+    \ innovation. Then a fuzzy set qualitative comparative analysis (fs QCA) is used\
+    \ in this paper to analyze the causal complexity between big data capability and\
+    \ green process innovation, and to identify six effective configuration paths.\
+    \ According to the results, the synergy of big data acquisition capability, big\
+    \ data analysis capability and big data insight capability is crucial for high\
+    \ green process innovation, where big data insight capability plays a central\
+    \ role and big data acquisition capability or analysis capability and green innovation\
+    \ intention play a marginal role. According to the heterogeneity test, it is found\
+    \ that big data capability has stronger roles in the eastern region in China;\
+    \ green innovation intention has a stronger impact in the central and western\
+    \ regions in China. As enterprise-scale increases, the impact of big data capability\
+    \ on green process innovation increases and then declines, while the impact of\
+    \ green innovation intention on green process innovation continues to decline."
+  author: Hongna Tian and Yunfang Li and Yan Zhang
+  doi: https://doi.org/10.1016/j.jclepro.2022.134261
+  keywords: Big data capability, Green innovation intention, Green process innovation,
+    Digital and intelligent empowerment, fs QCA
+  title: 'Digital and intelligent empowerment: Can big data capability drive green
+    process innovation of manufacturing enterprises?'
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: Combining query processing techniques with data quality management approaches
+    enables enforcement of quality constraints, such as timeliness, accuracy and completeness,
+    as part of ad-hoc query specification and execution, improving the quality of
+    query results. Despite the emergence of novel data quality processing tools, there
+    is a dearth of studies assessing performance and scalability in the execution
+    of data quality assessment tasks during query processing. This paper reports on
+    an empirical study aiming to investigate the extent to which a big data computing
+    framework (Spark) can offer significant gains in performance and scalability when
+    executing data quality querying tasks over a range of computational platforms
+    including a single commodity multi-core machine and a cluster-based platform for
+    a wide range of workloads. Our results show that substantial performance and scalability
+    gains can be obtained by using optimized data science libraries combined with
+    the parallel and distributed capabilities of big data computing. We also provide
+    guidelines on choosing the appropriate computational infrastructure for executing
+    DQ-aware queries.
+  author: Sonia Cisneros-Cabrera and Anna-Valentini Michailidou and Sandra Sampaio
+    and Pedro Sampaio and Anastasios Gounaris
+  doi: https://doi.org/10.1016/j.eswa.2021.114858
+  keywords: Data quality-aware queries, Big data computing, Empirical evaluation
+  title: Experimenting with big data computing for scaling data quality-aware query
+    processing
+  year: '2021'
+- ENTRYTYPE: article
+  abstract: "Big Data is a modern economic and social transformation driver all over\
+    \ the world. The selection has reached a tipping point in terms of big technological\
+    \ advancements that could usher in new ones. It's about making decisions, taking\
+    \ charge of our health, our cities, our wallets, and our education. While the\
+    \ amount, diversity, speed, and reliability of data has increased, so has the\
+    \ complexity of the data (Amzal et\_al., 2006). Our ability to identify the \"\
+    value of information through Big Data\" will have the most impact. As a result\
+    \ of the resolution of large data concerns, Big Data is revolutionising the IT\
+    \ sector Software vendors in many industries are unable to move forward with dependability\
+    \ and scalability, Information on the project. With the help of relational databases,\
+    \ the explanation for why business requires adequate atomic transactions in the\
+    \ business sector. As a result, to benefit from both technology, advantages, and\
+    \ solutions. Big Data, which refers to databases that are too huge to be processed\
+    \ with current database administration tools, is gaining traction in a variety\
+    \ of significant applications, including internet search, business, social networking,\
+    \ genomics, and meteorology [2]. This concept highlights key research challenges\
+    \ and the promise of data-driven optimization that organically integrates fuzzy,\
+    \ machine learning, and deep learning for decision-making under uncertainty, and\
+    \ identifies potential research opportunities in the business field of Bayesian\
+    \ optimization under uncertainty through a modern data lens. Big Data is a big\
+    \ issue for science and database data mining. Here, we look at the fascinating\
+    \ activities that my community has been doing at this conference to talk about\
+    \ the Big Data problem. As a result, the central focus is linking Big Data to\
+    \ individuals in numerous ways."
+  author: Ekansh Upadhyay
+  doi: https://doi.org/10.1016/j.advengsoft.2022.103246
+  keywords: Big Data, Uncertainty, Behavioral research, Fuzzy logic, Learning, Veracity,
+    Unlabeled data, Machine learning
+  title: A critical evaluation of handling uncertainty in Big Data processing
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "Big data analytics (BDA) has recently gained importance as an emerging\
+    \ technology for handling big data. The use of advanced techniques with differing\
+    \ levels of intelligence, such as descriptive, predictive, prescriptive, and autonomous\
+    \ analytics, is expected to create value for firms. By viewing BDA as a sociotechnical\
+    \ system, we conduct a meta-analysis of 107 individual studies to integrate prior\
+    \ evidence on the role of the technical and social factors of BDA in creating\
+    \ BDA business value. The findings underline the predominant role of the social\
+    \ components in enhancing firm performance, such as the BDA system\u2019s human\
+    \ factors and a nurturing organizational structure, in contrast to the minor role\
+    \ of the technological factors. However, both the technical and social factors\
+    \ are found to be strong determinants of BDA business value. Through the combined\
+    \ lens of sociotechnical theory and the IS business value framework, we contribute\
+    \ to research and practice by enhancing the understanding of the main technical\
+    \ and social determinants of BDA business value at the firm level."
+  author: Thuy Duong Oesterreich and Eduard Anton and Frank Teuteberg and Yogesh K
+    Dwivedi
+  doi: https://doi.org/10.1016/j.jbusres.2022.08.028
+  keywords: Big data analytics, IT business value, Firm performance, Meta-analysis,
+    Moderator analysis, Sociotechnical theory
+  title: 'The role of the social and technical factors in creating business value
+    from big data analytics: A meta-analysis'
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: As more and more mobile devices and IoT terminals are connected to the
+    Internet, a huge amount of spatio-temporal data is generated. In order to cope
+    with the pressure of storing and computing massive amounts of data locally and
+    to share data to fully utilize its value, data owners usually store data in cloud
+    servers. However, the data owner will lose physical control of big spatio-temporal
+    data while the big spatio-temporal data is stored on the cloud, and it will be
+    at the risk of being tampered with and deleted. Therefore, this paper designs
+    a blockchain-based secure storage mechanism, BSMD, which adopts an on-chain and
+    off-chain cooperative storage model to alleviate the shortage of blockchain storage
+    capacity. The updatable subvector commitment designed in this paper is used to
+    construct the on-chain and off-chain secure authentication protocol which ensures
+    the consistency of on-chain and off-chain data and makes the protocol have the
+    capability of batch processing. Finally, the correctness and security of the proposed
+    protocol are proved, and the performance of the protocol is analyzed.
+  author: Yongjun Ren and Ding Huang and Wenhai Wang and Xiaofeng Yu
+  doi: https://doi.org/10.1016/j.future.2022.09.008
+  keywords: Big spatio-temporal data, Subvector commitment, Blockchain, Cloud computing
+  title: BSMD:A blockchain-based secure storage mechanism for big spatio-temporal
+    data
+  year: '2023'
+- ENTRYTYPE: article
+  abstract: Based on the Web service composition technology, the method of decomposing
+    the quality of QoS indicators is proposed. Compared with the traditional integer
+    programming and genetic algorithm, it improves the calculation speed of QoS of
+    Internet of Things service portfolio quality. Big data technology is an important
+    technology for handling massive amounts of data in a complex network environment.
+    Although the previous big data technology can effectively deal with this, there
+    are still shortcomings in accuracy and real-time. In order to achieve visual energy
+    management and control and improve the application value of big data technology,
+    a real-time visualized integrated energy big data platform based on heterogeneous
+    computers is proposed. The platform can connect to heterogeneous computers of
+    users in the business area in a non-intrusive manner. In order to obtain more
+    accurate data related to energy supply, so as to monitor the state of energy supply
+    from a comprehensive perspective. At the same time, in-depth research on the data
+    resource sharing relationship, value network and service model has been carried
+    out, and corresponding construction methods have been proposed. The results show
+    that the proposed method is faster and more accurate in real-time detection of
+    energy consumption.
+  author: Pingping Sun and Lingang Gu
+  doi: https://doi.org/10.1016/j.seta.2021.101134
+  keywords: Energy big data, Service portfolio quality, Internet of Things, Heterogeneous
+    computing
+  title: Energy big data acquisition and application based on service portfolio quality
+  year: '2021'
+- ENTRYTYPE: article
+  abstract: This study examines the antecedents and influence of big data decision-making
+    capabilities on decision-making quality among Chinese firms. We propose that such
+    capabilities are influenced by big data management challenges such as leadership,
+    talent management, technology, and organisational culture. By using primary data
+    from 108 Chinese firms and utilising partial least squares, we tested the antecedents
+    of big data decision-making capability and its impact on decision-making quality.
+    Findings suggest that big data management challenges are the key antecedents of
+    big data decision-making capability. Furthermore, the latter is vital for big
+    data decision-making quality.
+  author: Saqib Shamim and Jing Zeng and Syed Muhammad Shariq and Zaheer Khan
+  doi: https://doi.org/10.1016/j.im.2018.12.003
+  keywords: Big data management, Dynamic capabilities, Big data decision-making capability,
+    Decision-making quality, China
+  title: 'Role of big data management in enhancing big data decision-making capability
+    and quality among Chinese firms: A dynamic capabilities view'
+  year: '2019'
+- ENTRYTYPE: article
+  abstract: The practice of medicine and medical biology is being revolutionized by
+    the development of artificial intelligence (AI) and Big Data analysis in this
+    field, with their ability to process large volumes of structured and unstructured
+    data from different sources with a satisfactory processing speed. Medical analytics
+    provides a huge amount of information and data. However, Big Data and AI allow
+    for innovative applications in the field of medical biology. Thus, this article
+    summarizes some recent promising applications of AI and Big Data in medical biology
+    laboratories, notably in the central laboratory of the Mohammed VI University
+    Hospital Oujda, as the quality improvement and vitamin D prediction threshold,
+    which have potential added value for improving the quality of contemporary health
+    services and reducing the costs of analysis and care.
+  author: A. Yahyaoui and H. Zrouri and O. Hamdani and W. Azizi and Y. Sbibih and
+    M. Harrandou and A. Saddari and E. Sebbar and M. Choukri
+  doi: https://doi.org/10.1016/j.matpr.2022.09.134
+  keywords: Big Data, Artificial intelligence (AI), Depp learning (DL), Machine learning
+    (ML), Medical biology, Laboratory
+  title: 'Contribution of artificial intelligence and big data in a medical biology
+    laboratory: An experience of the central laboratory CHU Mohammed VI Oujda'
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "Religious interaction, supported by effective theories and practical\
+    \ approaches, can be influenced by the social environment, resulting in differing\
+    \ religious paths and characteristics with changes in society. The acceleration\
+    \ of population aging directly affects personal consumption and indirectly affects\
+    \ economic development. By analyzing big data, this paper examines and predicts\
+    \ the interaction between contemporary social change and religionization. Through\
+    \ statistical analyses of cultivated land and urbanization rate data, a strong\
+    \ negative correlation is revealed between GDP development level and cultivated\
+    \ land area. The correlation coefficient between these variables can reach \u2212\
+    0.9258, indicating that they are closely related. There is also a high positive\
+    \ correlation between urbanization rate and the natural logarithm of fixed asset\
+    \ investment, with a correlation coefficient of 0.9417. Urbanization rate has\
+    \ the greatest impact on fixed asset investment. Religious interaction not only\
+    \ maintains and cultivates political culture and improves individuals' political\
+    \ quality and ability but also facilitates the development of political identity,\
+    \ which can effectively promote social change in China."
+  author: Qinyao Yu
+  doi: https://doi.org/10.1016/j.techfore.2022.122038
+  keywords: Socialization of religion, Big data, Interactive model, Correlation degree
+  title: Simulation of the interactive prediction of contemporary social change and
+    religious socialization based on big data
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "In silico (computational) methods continue to evolve as part of a robust\
+    \ 21st century public health strategy in risk assessment, relevant to all sectors\
+    \ of chemical safety including preclinical drug discovery, industrial chemicals\
+    \ testing, food and cosmetics. Alongside in vitro methods as components of intelligent\
+    \ testing and pathway driven strategies, in silico models provide the potential\
+    \ for more human relevant solutions to the use of animals in safety testing and\
+    \ biomedical research. These are often termed \u2018New Approach Methodologies\u2019\
+    \ (NAMs). Some NAMs incorporate the use of \u2018big data\u2019, for example the\
+    \ information provided from high throughput or high content in vitro screening\
+    \ assays or \u2018omics\u2019 technologies. Big data has increasing relevance\
+    \ to predictive toxicology but must be appropriately defined, particularly with\
+    \ regard to \u2018quality vs quantity\u2019. The purpose of this article is to\
+    \ provide a commentary on the progress of in silico human-based research methods\
+    \ within the context of NAMs, as well as discussion of the emerging use of big\
+    \ data with relevance to safety assessment. The current status of in silico methods\
+    \ is discussed, with input from researchers in the field. Scientific and legislative\
+    \ drivers for change are also considered, along with next steps to address challenges\
+    \ in funding and recognition, to achieve regulatory acceptance and uptake within\
+    \ the research community. To provide some wider context, the use of in silico\
+    \ methods alongside other relevant approaches (e.g., human-based in vitro) is\
+    \ also discussed."
+  author: Rebecca N. Ram and Domenico Gadaleta and Timothy E.H. Allen
+  doi: https://doi.org/10.1016/j.comtox.2022.100232
+  keywords: Computational toxicology, In-silico, NAMs, New approach methodologies,
+    Human relevant, QSAR, Read across, Chemical safety, High throughput, Adverse outcome
+    pathways
+  title: "The role of \u2018big data\u2019 and \u2018in silico\u2019 New Approach\
+    \ Methodologies (NAMs) in ending animal use \u2013 A commentary on progress"
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: Big data analytics associated with database searching, mining, and analysis
+    can be seen as an innovative IT capability that can improve firm performance.
+    Even though some leading companies are actively adopting big data analytics to
+    strengthen market competition and to open up new business opportunities, many
+    firms are still in the early stage of the adoption curve due to lack of understanding
+    of and experience with big data. Hence, it is interesting and timely to understand
+    issues relevant to big data adoption. In this study, a research model is proposed
+    to explain the acquisition intention of big data analytics mainly from the theoretical
+    perspectives of data quality management and data usage experience. Our empirical
+    investigation reveals that a firm's intention for big data analytics can be positively
+    affected by its competence in maintaining the quality of corporate data. Moreover,
+    a firm's favorable experience (i.e., benefit perceptions) in utilizing external
+    source data could encourage future acquisition of big data analytics. Surprisingly,
+    a firm's favorable experience (i.e., benefit perceptions) in utilizing internal
+    source data could hamper its adoption intention for big data analytics.
+  author: Ohbyung Kwon and Namyeon Lee and Bongsik Shin
+  doi: https://doi.org/10.1016/j.ijinfomgt.2014.02.002
+  keywords: Big data analytics, Resource-based view, Data quality management, IT capability,
+    Data usage
+  title: Data quality management, data usage experience and acquisition intention
+    of big data analytics
+  year: '2014'
+- ENTRYTYPE: article
+  abstract: "The recent explosive publications of big data studies have well documented\
+    \ the rise of big data and its ongoing prevalence. Different types of \u201Cbig\
+    \ data\u201D have emerged and have greatly enriched spatial information sciences\
+    \ and related fields in terms of breadth and granularity. Studies that were difficult\
+    \ to conduct in the past time due to data availability can now be carried out.\
+    \ However, big data brings lots of \u201Cbig errors\u201D in data quality and\
+    \ data usage, which cannot be used as a substitute for sound research design and\
+    \ solid theories. We indicated and summarized the problems faced by current big\
+    \ data studies with regard to data collection, processing and analysis: inauthentic\
+    \ data collection, information incompleteness and noise of big data, unrepresentativeness,\
+    \ consistency and reliability, and ethical issues. Cases of empirical studies\
+    \ are provided as evidences for each problem. We propose that big data research\
+    \ should closely follow good scientific practice to provide reliable and scientific\
+    \ \u201Cstories\u201D, as well as explore and develop techniques and methods to\
+    \ mitigate or rectify those \u2018big-errors\u2019 brought by big data."
+  author: Jianzheng Liu and Jie Li and Weifeng Li and Jiansheng Wu
+  doi: https://doi.org/10.1016/j.isprsjprs.2015.11.006
+  keywords: Big data, Data quality and error, Data ethnics, Spatial information sciences
+  title: 'Rethinking big data: A review on the data quality and usage issues'
+  year: '2016'
+- ENTRYTYPE: article
+  abstract: "Background\nActivating prior medical knowledge in diagnosis and treatment\
+    \ is an important basis for clinicians to improve their care ability. However,\
+    \ it has not been systematically explained whether and how various big data resources\
+    \ affect the activation of prior knowledge in the big data environment faced by\
+    \ clinicians.\nObjective\nThe aim of this study is to contribute to a better understanding\
+    \ on how the activation of prior knowledge of clinicians is affected by a wide\
+    \ range of shared and private big data resources, to reveal the impact of big\
+    \ data resources on clinical competence and professional development of clinicians.\n\
+    Method\nThrough the comprehensive analysis of extant research results, big data\
+    \ resources are classified as big data itself, big data technology and big data\
+    \ services at the public and institutional levels. A survey was conducted on clinicians\
+    \ and IT personnel in Chinese hospitals. A total of 616 surveys are completed,\
+    \ involving 308 medical institutions. Each medical institution includes a clinician\
+    \ and an IT personnel. SmartPLS version 2.0 software package was used to test\
+    \ the direct impact of big data resources on the activation of prior knowledge.\
+    \ We further analyze their indirect impact of those big data resources without\
+    \ direct impact.\nResults\n(1) Big data quality environment at the institutional\
+    \ level and the big data sharing environment at the public level directly affect\
+    \ activation of prior medical knowledge; (2) Big data service environment at the\
+    \ institutional level directly affects activation of prior medical knowledge;\
+    \ (3) Big data deployment environment at the institutional level and big data\
+    \ service environment at the public level have no direct impact on activation\
+    \ of prior knowledge of clinicians, but they have an indirect impact through big\
+    \ data quality environment and service environment at the institutional level\
+    \ and the big data sharing environment at the public level.\nConclusions\nBig\
+    \ data technology, big data itself and big data service at the public level and\
+    \ institutional level interact and influence each other to activate prior medical\
+    \ knowledge. This study highlights the implications of big data resources on improvement\
+    \ of clinicians\u2019 diagnosis and treatment ability."
+  author: Sufen Wang and Junyi Yuan and Changqing Pan
+  doi: https://doi.org/10.1016/j.heliyon.2022.e10312
+  keywords: Big data resources, Activation of prior medical knowledge, Shared big
+    data resources, Private big data resources
+  title: "Impact of big data resources on clinicians\u2019 activation of prior medical\
+    \ knowledge"
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: 'Root cause analysis for quality problem solving is critical to improve
+    product quality performance and reduce the quality risk for manufacturers. Subjective
+    conventional methods have been applied frequently in past decades. However, due
+    to increasingly complex product and supply chain structures, diverse working conditions,
+    and massive amounts of components, accuracy and efficiency of root cause analysis
+    are progressively challenged in practice. Therefore, data-driven root cause analysis
+    methods have attracted attention lately. In this paper, taking advantage of the
+    availability of big operations data and the rapid development of data science,
+    we design a big data-driven root cause analysis system utilizing Machine Learning
+    techniques to improve the performance of root cause analysis. More specifically,
+    we first propose a conceptual framework of the big data-driven root cause analysis
+    system including three modules of Problem Identification, Root Cause Identification,
+    and Permanent Corrective Action. Furthermore, in the Problem Identification Module,
+    we construct a unified feature-based approach to describe multiple and different
+    types of quality problems by applying a data mining method. In the Root Cause
+    Identification Module, we use supervised Machine Learning (classification) methods
+    to automatically predict the root causes of multiple quality problems. Finally,
+    we illustrate the accuracy and efficiency of the proposed system and algorithms
+    based on actual quality data from a case company. This study contributes to the
+    literature from the following aspects: (i) the integrated system and algorithms
+    can be used directly to develop a computer application to manage and solve quality
+    problems with high concurrences and complexities in any manufacturing process;
+    (ii) a general procedure and method are provided to formulate and describe a large
+    quantity and different types of quality problems; (iii) compared with traditional
+    methods, it is demonstrated using real case data that manufacturing companies
+    can save significant time and cost with our proposed data-driven root cause analysis
+    system; (iv) this study not only aims at improving the quality problem solving
+    practices for a complex manufacturing process but also bridges a gap between the
+    theoretical development of Machining Learning methods and their application in
+    the operations management domain.'
+  author: Qiuping Ma and Hongyan Li and Anders Thorstenson
+  doi: https://doi.org/10.1016/j.cie.2021.107580
+  keywords: Quality management, Data mining, Machine Learning, Multi-class classification,
+    Neural Network
+  title: 'A big data-driven root cause analysis system: Application of Machine Learning
+    in quality problem solving'
+  year: '2021'
+- ENTRYTYPE: article
+  abstract: With the ever increasing data collected from the process, the era of big
+    data has arrived in the process industry. Therefore, the computational effort
+    for data modeling and analytics in standalone modes has become increasingly demanding,
+    particularly for large-scale processes. In this paper, a distributed parallel
+    process modeling approach is presented based on a MapReduce framework for big
+    data quality prediction. Firstly, the architecture for distributed parallel data
+    modeling is formulated under the MapReduce framework. Secondly, a big data quality
+    prediction scheme is developed based on the distributed parallel data modeling
+    approach. As an example, the basic Semi-Supervised Probabilistic Principal Component
+    Regression (SSPPCR) model is deployed to concurrently train a set of local models
+    with split datasets. Meanwhile, Bayesian rule is utilized in a MapReduce way to
+    integrate local models based on their predictive abilities. Two case studies demonstrate
+    the effectiveness of the proposed method for big data quality prediction.
+  author: Le Yao and Zhiqiang Ge
+  doi: https://doi.org/10.1016/j.jprocont.2018.04.004
+  keywords: Distributed modeling, MapReduce framework, Parallel computing, Quality
+    prediction, Big data analytics
+  title: 'Big data quality prediction in the process industry: A distributed parallel
+    modeling framework'
+  year: '2018'
+- ENTRYTYPE: article
+  abstract: Big data analytics (BDA) and the Internet of Things (IoT) tools are considered
+    crucial investments for firms to distinguish themselves among competitors. Drawing
+    on a strategic management perspective, this study proposes that BDA and IoT capabilities
+    can create significant value in business processes if supported by a good level
+    of data quality, which will lead to a better competitive advantage. Responses
+    are collected from 618 European and American firms that use IoT and BDA applications.
+    Partial least squares results reveal that better data quality is needed to unlock
+    the value of IoT and BDA capabilities.
+  author: "Nadine C\xF4rte-Real and Pedro Ruivo and Tiago Oliveira"
+  doi: https://doi.org/10.1016/j.im.2019.01.003
+  keywords: Big data analytics, Internet of things, Strategic management, Knowledge-based
+    theory, Dynamics capability theory
+  title: 'Leveraging internet of things and big data analytics initiatives in European
+    and American firms: Is data quality a way to extract business value?'
+  year: '2020'
+- ENTRYTYPE: incollection
+  abstract: Assessment of food quality is an important feature in novel food products
+    development process. This is because quality has implications for safety, nutritional
+    contents, traceability, and market value of foods. However, due to the biochemical
+    complexities of food products, it has become important that advanced analytical
+    tools relating to proteomics, genomics, and big data be used to completely characterize
+    the molecular features of food substances and monitor potential variations in
+    quality. Such in silico tools could be used to generate molecular templates for
+    probing the biochemical and chemo-molecular features of food substances to validate
+    food quality for high throughput screening. For example, deep learning has received
+    significant attention due to its capacity for feature learning based on multi-layer
+    artificial neural networks. The combination of deep learning, molecular analysis
+    using advanced techniques such as chromatography, electrophoresis and spectroscopy,
+    and genome characterization will constitute a novel approach for probing the quality
+    dynamics of food substances. Discussed in this chapter are opportunities for integrated
+    chemical analysis, bioinformatics, and computational approaches for effective
+    monitoring of food quality. In addition, current advancements in food quality
+    monitoring through a combination of proteomic and big data tools, as well as their
+    future perspectives are addressed.
+  author: Jaison Jeevanandam and Dominic Agyei and Michael K. Danquah and Chibuike
+    Udenigwe
+  doi: https://doi.org/10.1016/B978-0-323-91001-9.00036-0
+  keywords: Food quality, Bioinformatics, Big data, Proteomics, Genomics, Molecular
+    analysis
+  title: Chapter 41 - Food quality monitoring through bioinformatics and big data
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: To strengthen the development of enterprises and optimize knowledge management
+    strategies, the current situation of enterprise knowledge management (EKM) is
+    investigated and the evaluation indicators of EKM strategies are analyzed. The
+    specific structure and principles of neural network algorithms are studied using
+    big data. Finally, neural networks (NNs) technology is used to evaluate EKM strategies
+    and calculate the specific weight and strategy application of EKM using big data.
+    The results show that with the support of big data, the use of NNs technology
+    can analyze not only the knowledge management strategies, but also the different
+    strategies of knowledge management used by different enterprises. When analyzing
+    EKM strategies, enterprises indicators collected by big data vary greatly. The
+    highest and lowest values are approximately 0.94 and 0.28, respectively. It indicates
+    that NNs technology can be used to study different knowledge management strategies.
+    Using this technology, the knowledge management strategies of different enterprises
+    are calculated and optimized. The error between the final calculation and the
+    actual result is relatively small, with a maximum and minimum of approximately
+    0.197 and 0.012, respectively. With the support of big data, the innovation and
+    development of EKM strategy using NNs technology provides technical support for
+    EKM and a reference.
+  author: Yuanjun Zhao and Subin Wen and Tengjun Zhou and Wei Liu and Hongxin Yu and
+    Hongwei Xu
+  doi: https://doi.org/10.1016/j.jik.2022.100273
+  keywords: Enterprise knowledge, Management strategies, Big data, Neural networks
+    technology
+  title: Development and innovation of enterprise knowledge management strategies
+    using big data neural networks technology
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: Industrial big data technology has become one of the important driving
+    forces to intelligent manufacturing in the steel industry. In this study, the
+    characteristics of data in steel production are analyzed and an industrial big
+    data platform for steeling process is developed to extract the quality-related
+    parameters. A data-driven approach to construct prediction intervals (PIs) of
+    mechanical performances for hot-rolling strips is proposed to represent the uncertainty
+    and reliability of the prediction results. The proposed method employs a new manifold
+    visualization method, SLISEMAP, to reduce the feature dimensions with interpretability,
+    utilizes lower upper bound estimation (LUBE) method to obtain the PIs, in which
+    the broad learning system (BLS) is used as the basic training network model and
+    the artificial bee colony (ABC) algorithm is applied to optimize the weighting
+    parameters of BLS under the LUBE framework. A hot-rolling steel coil dataset consisting
+    of 39 variables and 1335 coil samples is used to validate the proposed method.
+    Two Delta-based approaches, namely back propagation neural network (BPNN) and
+    extreme learning machine (ELM); and three LUBE-based approaches, namely ABC-BPNN,
+    ABC-ELM, and ABC-support vector regression (SVR) are compared with the proposed
+    method. Results show that the proposed ABC-BLS in LUBE is effective and efficient
+    in constructing the PIs with a higher coverage probability and a narrower interval
+    width.
+  author: Gongzhuang Peng and Yinliang Cheng and Yufei Zhang and Jian Shao and Hongwei
+    Wang and Weiming Shen
+  doi: https://doi.org/10.1016/j.jmsy.2022.08.014
+  keywords: Industrial big data, Mechanical performances prediction, Lower upper bound
+    estimation, Broad learning system, Hot-rolling
+  title: Industrial big data-driven mechanical performance prediction for hot-rolling
+    steel using lower upper bound estimation method
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: 'ABSTRACT
+
+    Systematic, large-scale, studies at the genomic, metabolomic, and functional level
+    have transformed the natural product sciences. Improvements in technology and
+    reduction in cost for obtaining spectroscopic, chromatographic, and genomic data
+    coupled with the creation of readily accessible curated and functionally annotated
+    data sets have altered the practices of virtually all natural product research
+    laboratories. Gone are the days when the natural products researchers were expected
+    to devote themselves exclusively to the isolation, purification, and structure
+    elucidation of small molecules. We now also engage with big data in taxonomic,
+    genomic, proteomic, and/or metabolomic collections, and use these data to generate
+    and test hypotheses. While the oft stated aim for the use of large-scale -omics
+    data in the natural products sciences is to achieve a rapid increase in the rate
+    of discovery of new drugs, this has not yet come to pass. At the same time, new
+    technologies have provided unexpected opportunities for natural products chemists
+    to ask and answer new and different questions. With this viewpoint, we discuss
+    the evolution of big data as a part of natural products research and provide a
+    few examples of how discoveries have been enabled by access to big data. We also
+    draw attention to some of the limitations in our existing engagement with large
+    datasets and consider what would be necessary to overcome them.'
+  author: Nadja B. Cech and Marnix H. Medema and Jon Clardy
+  doi: https://doi.org/10.1039/d1np00061f
+  keywords: .nan
+  title: 'Benefiting from big data in natural products: importance of preserving foundational
+    skills and prioritizing data quality'
+  year: '2021'
+- ENTRYTYPE: article
+  abstract: "Today\u05F3s supply chain professionals are inundated with data, motivating\
+    \ new ways of thinking about how data are produced, organized, and analyzed. This\
+    \ has provided an impetus for organizations to adopt and perfect data analytic\
+    \ functions (e.g. data science, predictive analytics, and big data) in order to\
+    \ enhance supply chain processes and, ultimately, performance. However, management\
+    \ decisions informed by the use of these data analytic methods are only as good\
+    \ as the data on which they are based. In this paper, we introduce the data quality\
+    \ problem in the context of supply chain management (SCM) and propose methods\
+    \ for monitoring and controlling data quality. In addition to advocating for the\
+    \ importance of addressing data quality in supply chain research and practice,\
+    \ we also highlight interdisciplinary research topics based on complementary theory."
+  author: Benjamin T. Hazen and Christopher A. Boone and Jeremy D. Ezell and L. Allison
+    Jones-Farmer
+  doi: https://doi.org/10.1016/j.ijpe.2014.04.018
+  keywords: Data quality, Statistical process control, Knowledge-based view, Organizational
+    information processing view, Systems theory
+  title: 'Data quality for data science, predictive analytics, and big data in supply
+    chain management: An introduction to the problem and suggestions for research
+    and applications'
+  year: '2014'
+- ENTRYTYPE: article
+  abstract: "The use of Internet of Things (IoT) networks offers great advantages\
+    \ over wired networks, especially due to their simple installation, low maintenance\
+    \ costs, and automatic configuration. IoT facilitates the integration of sensing\
+    \ and communication for various industries, including smart farming and precision\
+    \ agriculture. For several years, many researchers have strived to find new sources\
+    \ of energy that are always \u201Ccleaner\u201D and more environmentally friendly.\
+    \ Energy harvesting technology is one of the most promising environment-friendly\
+    \ solutions that extend the lifetime of these IoT devices. In this paper, the\
+    \ state-of-art of IoT energy harvesting capabilities and communication technologies\
+    \ in smart agriculture is presented. In addition, this work proposes a comprehensive\
+    \ architecture that includes big data technologies, IoT components, and knowledge-based\
+    \ systems for innovative farm architecture. The solution answers some of the biggest\
+    \ challenges the agriculture industry faces, especially when handling small files\
+    \ in a big data environment without impacting the computation performance. The\
+    \ solution is built on top of a pre-defined big data architecture that includes\
+    \ an abstraction layer of the data lake that handles data quality following a\
+    \ data migration strategy to ensure the data's insights. Furthermore, in this\
+    \ paper, we compared several machine learning algorithms to find the most suitable\
+    \ smart farming analytics tools in terms of forecasting and predictions."
+  author: El Mehdi Ouafiq and Rachid Saadane and Abdellah Chehri and Seunggil Jeon
+  doi: https://doi.org/10.1016/j.seta.2022.102093
+  keywords: Smart Farming, Energy Harvesting Capabilities, IoT, Big Data, Agriculture
+    4.0, Water Management, Sustainability
+  title: AI-based modeling and data-driven evaluation for smart farming-oriented big
+    data architecture using IoT with energy harvesting capabilities
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: Big Data deal with new challenges such as data variety, data veracity
+    (correct, incorrect, misleading, etc.) and data completeness (provide a single
+    part of the overall information.). In fact, the knowledge discovered from a single
+    source that can offer incorrect or incomplete data, may have a negative impact
+    on the quality of decisions based on it. Therefore, integrating data coming from
+    multiple sources allows verifying the veracity and ensuring the completeness of
+    the results and thus improving the quality of analysis and enhancing business
+    decisions. In this paper, we present a smart framework that falls within the Big
+    Data value chain process and aims to improve the quality of analytical results
+    by focusing two main concerns regarding Big Data Integration; data completeness
+    and data veracity. The framework integrates Big Data in order to build a complete
+    global and correct insight from heterogeneous sources. The paper presents two
+    implementations of the framework in the context of urban and highway traffic management
+    systems.
+  author: Siham Yousfi and Dalila Chiadmi and Maryem Rhanoui
+  doi: https://doi.org/10.1016/j.jksuci.2021.12.009
+  keywords: Big data value chain, Data integration, Heterogeneous data sources, Spacio-temporal
+    traffic monitoring, Traffic management systems
+  title: Smart big data framework for insight discovery
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "Revealing customer satisfaction through big social data has been an interesting\
+    \ research topic in tourism and hospitality. Big data analysis is an effective\
+    \ way to detect customers\u2019 behaviors in their decision-making. This study\
+    \ aims to perform big social data analysis to reveal whether food quality impacts\
+    \ the relationship between hotel performance criteria and travelers\u2019 satisfaction.\
+    \ A two-stage methodology is developed to address the objectives of this study.\
+    \ The findings demonstrated that there is a positive relationship between eco-friendly\
+    \ hotels\u2019 performance criteria and satisfaction. The results and implications\
+    \ for managers and future research directions are discussed."
+  author: Mehrbakhsh Nilashi and Rabab Ali Abumalloh and Ahmed Almulihi and Mesfer
+    Alrizq and Abdullah Alghamdi and Muhammed Yousoof Ismail and Abul Bashar and Waleed
+    Abdu Zogaan and Shahla Asadi
+  doi: https://doi.org/10.1016/j.icte.2021.11.006
+  keywords: "Online customers\u2019 reviews, Customers\u2019 satisfaction, Machine\
+    \ learning, Food quality, Hotel performance criteria, Big social data"
+  title: "Big social data analysis for impact of food quality on travelers\u2019 satisfaction\
+    \ in eco-friendly hotels"
+  year: '2021'
+- ENTRYTYPE: article
+  abstract: "With the development of the times, there is a huge amount of data in\
+    \ every industry. Big data technology is to collect, analyze, process and information\
+    \ from these huge data and apply it to all aspects of our life to improve people's\
+    \ production life. The proposal and development of smart agriculture will play\
+    \ a significant role in the further implementation of the country's rural revitalization\
+    \ strategy. However, the research on risk monitoring in smart agriculture is not\
+    \ yet systematic enough. The purpose of this article is to strengthen the development\
+    \ of smart agriculture under big data, focusing on risk monitoring. To this end,\
+    \ this article studies big data monitoring through data analysis methods and Internet\
+    \ of Things technologies, and discusses the principles of big data and key technology\
+    \ principles of the Internet of Things. Explained, and proposed a modern agricultural\
+    \ technology platform based on the Internet of Things and big data. This platform\
+    \ is established on the basis of precision agriculture and wireless sensor network\
+    \ work, and analyzes the accuracy of various types of light wavelengths for determining\
+    \ wheat rust. The analysis results show that the accuracy of light with multiple\
+    \ wavelengths is not necessarily better than the light with a single wavelength.\
+    \ The accuracy of 600\u202Fnm wavelength can reach 100\u202F%, and the accuracy\
+    \ of monitoring with 4 wavelengths together is rather low. However, less consideration\
+    \ is given to the factors in this article, and wheat does not necessarily cause\
+    \ only one disease. Comprehensive analysis is required. With the help of spectral\
+    \ research and aerial photography of drones, the severity of the disease and the\
+    \ outbreak area can be speculated."
+  author: Qingjun Wang and Zhendong Mu
+  doi: https://doi.org/10.1016/j.seta.2022.102654
+  keywords: Big data, Smart agriculture, Risk monitoring, IoT technology, Wireless
+    Sensor Networks
+  title: Risk monitoring model of intelligent agriculture Internet of Things based
+    on big data
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: Patient registries have grown in size and number along with general computing
+    power and digitization of the healthcare world. In contrast to databases, registries
+    are typically patient data systematically created and collected for the express
+    purpose of answering health-related questions. Registries can be disease-, procedure-,
+    pathology-, or product-based in nature. Registry-based studies typically fit into
+    Level II or III in the hierarchy of evidence-based medicine. However, a recent
+    advent in the use of registry data has been the development and execution of registry-based
+    trials, such as the TASTE trial, which may elevate registry-based studies into
+    the realm of Level I evidence. Some strengths of registries include the sheer
+    volume of data, the inclusion of a diverse set of participants, and their ability
+    to be linked to other registries and databases. Limitations of registries include
+    variable quality of the collected data, and a lack of active follow-up (which
+    may underestimate rates of adverse events). As with any study type, the intended
+    design does not automatically lead to a study of a certain quality. While no specific
+    tool exists for assessing the quality of a registry-based study, some important
+    considerations include ensuring the registry is appropriate for the question being
+    asked, whether the patient population is representative, the presence of an appropriate
+    comparison group, and the validity and generalizability of the registry in question.
+    The future of clinical registries remains to be seen, but the incorporation of
+    big data and machine learning algorithms will certainly play an important role.
+  author: Luc Rubinger and Seper Ekhtiari and Aaron Gazendam and Mohit Bhandari
+  doi: https://doi.org/10.1016/j.injury.2021.12.016
+  keywords: Registry, Big-data, registry-based RCT
+  title: 'Registries: Big data, bigger problems?'
+  year: '2021'
+- ENTRYTYPE: article
+  abstract: The United Nations 2030 Agenda for Sustainable Development provides an
+    important framework for economic, social, and environmental action. A comprehensive
+    indicator system to aid in the systematic implementation and monitoring of progress
+    toward the Sustainable Development Goals (SDGs) is unfortunately limited in many
+    countries due to lack of data. The availability of a growing amount of multi-source
+    data and rapid advancements in big data methods and infrastructure provide unique
+    opportunities to mitigate these data shortages and develop innovative methodologies
+    for comparatively monitoring SDGs. Big Earth Data, a special class of big data
+    with spatial attributes, holds tremendous potential to facilitate science, technology,
+    and innovation toward implementing SDGs around the world. Several programs and
+    initiatives in China have invested in Big Earth Data infrastructure and capabilities,
+    and have successfully carried out case studies to demonstrate their utility in
+    sustainability science. This paper presents implementations of Big Earth Data
+    in evaluating SDG indicators, including the development of new algorithms, indicator
+    expansion (for SDG 11.4.1) and indicator extension (for SDG 11.3.1), introduction
+    of a biodiversity risk index as a more effective analysis method for SDG 15.5.1,
+    and several new high-quality data products, such as global net ecosystem productivity,
+    high-resolution global mountain green cover index, and endangered species richness.
+    These innovations are used to present a comprehensive analysis of SDGs 2, 6, 11,
+    13, 14, and 15 from 2010 to 2020 in China utilizing Big Earth Data, concluding
+    that all six SDGs are on schedule to be achieved by 2030.
+  author: Huadong Guo and Dong Liang and Zhongchang Sun and Fang Chen and Xinyuan
+    Wang and Junsheng Li and Li Zhu and Jinhu Bian and Yanqiang Wei and Lei Huang
+    and Yu Chen and Dailiang Peng and Xiaosong Li and Shanlong Lu and Jie Liu and
+    Zeeshan Shirazi
+  doi: https://doi.org/10.1016/j.scib.2022.07.015
+  keywords: Big Earth Data, Big data, Sustainable Development Goals (SDGs), Decision
+    support, CASEarth, Digital Earth
+  title: Measuring and evaluating SDG indicators with Big Earth Data
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: Big data analytic is described as the complex process of investigating
+    big data to reveal hidden data such as patterns, market trends, and correlation,
+    and customer preferences. This might help to take important decisions. To analyze
+    the big data from the industries we proposed a new optimized green supply chain
+    management approach. This also mitigates the inherent risk that occurs due to
+    hazardous materials. This includes emission of carbons and economic cost. Here
+    we consider three scenarios. The former one is used to deal with the emission
+    of carbon and mitigates the risk. The second scenario can be used to reduce both
+    emission and risk and minimize the overall cost. The latter scenario can be used
+    to reduce all three factors simultaneously. The findings and discussion are performed
+    to showcase the advantages of the proposed method.
+  author: Dong Meiyou and Yao Ye
+  doi: https://doi.org/10.1016/j.jksus.2022.102041
+  keywords: Big Data, Sustainable Development, Green Environment, Enterprises and
+    Supply chain Management
+  title: Establishment of big data evaluation model for green and sustainable development
+    of enterprises
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: Aggressive, unexpected, and catastrophic changes in the environment-induced
+    or impacted by the cultivation of land, crops, and cattle are known as agricultural
+    disasters. In agriculture, the volume of data unpredictability, processing, and
+    data management standards for interoperability are significant concerns. While
+    natural catastrophes are still a considerable problem, the enormous amount of
+    data available has opened up new avenues for coping. Accordingly, big data analytics
+    has profoundly changed the way people respond to disasters in the agriculture
+    sector. In this paper, the Data handling model using big data analytics (DHM-BDA)explores
+    the role of big data in managing agricultural disasters and highlights the technical
+    status of delivering practical and efficient disaster management solutions. DHM-BDA
+    is used to address the essential sources of big data that include climatic causes
+    and associated successes and developing technological problems in different disaster
+    management phases. In addition, it aids in the monitoring, mitigation, alleviation,
+    and acceptance of agricultural catastrophes and the process of recovery and rebuilding.
+    The simulation findings have been executed, and the suggested model enhances the
+    prediction ratio of 98.9%, decision-making level of 97.8%, data management of
+    96.5%, production ratio of 95.6%, and risk reduction ratio of 97.1% compared to
+    other existing approaches.
+  author: Mustafa Musa Jaber and Mohammed Hasan Ali and Sura Khalil Abd and Mustafa
+    Mohammed Jassim and Ahmed Alkhayyat and Hussein Waheed Aziz and Ahmed Rashid Alkhuwaylidee
+  doi: https://doi.org/10.1016/j.pce.2022.103243
+  keywords: Big data analytics, Environment, Agricultural disaster, Climate factor
+  title: Predicting climate factors based on big data analytics based agricultural
+    disaster management
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "Renewable energy adaptation can play a critical role to halt climate\
+    \ change, although many researchers in the past tried to estimate its effect toward\
+    \ the environment, but the findings are still unclear and complex due to limitation\
+    \ of data and adopted methodologies. Therefore, to overcome the weaknesses, this\
+    \ paper aims to re-investigate the role of renewable energy adaptation, financial\
+    \ development and globalization toward environmental quality and economic progress\
+    \ in leading economies, we call it big five economies (B5) of the world. These\
+    \ economies (USA, China, UK, Germany, and Japan) were chosen based on ranking\
+    \ by the IMF. In this paper, we applied panel techniques for data analysis including\
+    \ panel data unit roots test, padroni cointegration analysis and panel data FMOLS\
+    \ and panel DOLS. Further, to explore country specific results and to ensure the\
+    \ robustness of findings, frequency domain causality test was applied. Results\
+    \ of estimation reveal that renewable energy adaptation mitigate the environmental\
+    \ impact to improve environmental quality and reinforce economic progress in B5\
+    \ countries. Although, financial development, capital formation, natural resources\
+    \ and globalization improve economic progress, but these factors create adverse\
+    \ consequence for the environmental quality. Similarly, it can be stated that\
+    \ it\u2019s a tradeoff between economy and the environment. Further, the role\
+    \ of trade is found as constructive for environmental quality and economic progress\
+    \ in B5 economies. We believe that the conclusions of our study hold promise for\
+    \ key insights for the policy development."
+  author: Li Xu and Xiuli Wang and Wen Guo
+  doi: https://doi.org/10.1016/j.renene.2022.05.004
+  keywords: Renewable energy, Environment, Economy, Globalization, Financial development
+  title: Does renewable energy adaptation, globalization, and financial development
+    matter for environmental quality and economic progress? Evidence from panel of
+    big five (B5) economies
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "Using big data in supply chain management (SCM) has the potential to\
+    \ have a significant impact on the industry in general and international transportation\
+    \ in particular. Big data have a direct influence on transportation capacity in\
+    \ future cities. There has been a significant increase in urbanization over the\
+    \ last decade in which one in three people will live in an urban area by 2050.\
+    \ An updated transportation infrastructure is essential to keep up with the present\
+    \ flow of goods, while also limiting its impact on the environment and human health\
+    \ and this is likely to be achieved using big data analytics technique. To overcome\
+    \ this problem, smart cities are becoming more popular. With the use of information\
+    \ and communication technology (ICT), a smart city aims to address public concerns\
+    \ in an inclusive, municipally-based partnership. A big data transportations system\
+    \ may be built using the superstructure of a smart city. A good way to define\
+    \ it is the modeling and analysis of urban transportation and distribution networks\
+    \ using enormous data sets created by GPS, mobile phones, and transactional data\
+    \ from company activities. Big Data analytics may be used in public transportation\
+    \ to better understand how people go about the city. A better understanding of\
+    \ passengers\u2019 travel patterns might help transportation providers make better\
+    \ judgments regarding service quality. People who travel by automobile on a regular\
+    \ basis may now be predicted based on the triangulation of mobile phone data from\
+    \ millions of anonymous users. Local and national polls may demonstrate the paradigm\u2019\
+    s applicability. To compute the time it takes for passengers to board and exit\
+    \ trains, Metro and iBus vehicle position data may be combined with information\
+    \ from smart cards. Big Data analytics for traffic management may benefit from\
+    \ these findings."
+  author: Denis Ushakov and Egor Dudukalov and Ekaterina Mironenko and Khodor Shatila
+  doi: https://doi.org/10.1016/j.trpro.2022.06.274
+  keywords: Smart Cities, public transportations, Big Data Analytics, Internet of
+    Things, Artificial Intelligence
+  title: "Big data analytics in smart cities\u2019 transportation infrastructure modernization"
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: Big data analytics (BDA) is a revolutionary approach for sound decision-making
+    in organizations that can lead to remarkable changes in transforming and supporting
+    the circular economy (CE). However, extant literature on BDA capability has paid
+    limited attention to understanding the enabling role of data-driven insights for
+    supporting decision-making and, consequently, enhancing CE performance. We argue
+    that firms drive decision-making quality through data-driven insights, business
+    intelligence and analytics (BI&A), and BDA capability. In this study, we empirically
+    investigated the association of BDA capability with CE performance and examined
+    the mediating role of data-driven insights in the relationship between BDA capability
+    and decision-making. Data were collected from 109 Czech manufacturing firms, and
+    partial least squares structural equation modeling was applied to analyze the
+    data. The results reveal that BDA capability and BI&A are positively associated
+    with decision-making quality. This effect is stronger when the manufacturer utilizes
+    data-driven insights. The results demonstrate that BDA capability drives decision-making
+    quality in organizations, and data-driven insights do not mediate this relationship.
+    BI&A is associated with decision-making quality through data-driven insights.
+    These findings offer important insights to managers, as they can act as a reference
+    point for developing data-driven insights with the CE paradigm in organizations.
+  author: Usama Awan and Saqib Shamim and Zaheer Khan and Najam Ul Zia and Syed Muhammad
+    Shariq and Muhammad Naveed Khan
+  doi: https://doi.org/10.1016/j.techfore.2021.120766
+  keywords: Big data analytics, Data-driven insights, Big data analytics capabilities,
+    Decision-making, Circular economy, Manufacturing firms
+  title: 'Big data analytics capability and decision-making: The role of data-driven
+    insight on circular economy performance'
+  year: '2021'
+- ENTRYTYPE: article
+  abstract: The rapid development of building energy consumption monitoring platforms
+    makes engineering data more diverse, which facilitates the goal of reducing emissions.
+    It is increasingly acknowledged that data preprocessing deserves the same attention
+    as intelligent algorithms. In this work, the data quality issue of the engineering
+    big data from non-demonstration complexes in China are analyzed thoroughly, and
+    the analysis is based on clustering-based algorithms. We can conclude that the
+    data of the hourly power of equipment groups are quality and stable, which is
+    suitable for the benchmark to check other data. The quality of the data about
+    pipes is acceptable. The number of data types about cooling towers is less, and
+    the quality is worse. Regarding other data, the quality is unstable, so researchers
+    should deal with those case-by-case. According to the above analysis, we proposed
+    a convenient, rule-based data preprocessing framework that utilizes the law of
+    physics, ensuring the strong coupling of multi-variants. After the data preprocessing,
+    these engineering data are more reliable and can be used to improve performance
+    or train models. Additionally, the proposed framework is more suitable for preprocessing
+    multi-variant engineering data.
+  author: Ruikai He and Tong Xiao and Shunian Qiu and Jiefan Gu and Minchen Wei and
+    Peng Xu
+  doi: https://doi.org/10.1016/j.enbuild.2022.112372
+  keywords: Data pre-processing, Big engineering data, Building energy management
+  title: A rule-based data preprocessing framework for chiller rooms inspired by the
+    analysis of engineering big data
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: An IS researcher may obtain Big Data from primary or secondary data sources.
+    Sometimes, acquiring primary Big Data is infeasible due to availability, accessibility,
+    cost, time, and/or complexity considerations. In this paper, we focus on Big Data-based
+    IS research and discuss ways in which one may, post hoc, establish quality thresholds
+    for numerical Big Data obtained from secondary sources. We also present guidelines
+    for developing journal policies aimed at ensuring the veracity and verifiability
+    of such data when used for research purposes.
+  author: Anita Lee-Post and Ram Pakath
+  doi: https://doi.org/10.1016/j.dss.2019.113135
+  keywords: Data quality, Big data, Secondary data, Numerical data, Quality threshold
+  title: Numerical, secondary Big Data quality issues, quality threshold establishment,
+    & guidelines for journal policy development
+  year: '2019'
+- ENTRYTYPE: article
+  abstract: Big data has generated strong interest in various scientific and engineering
+    domains over the last few years. Despite many advantages and applications, there
+    are many challenges in big data to be tackled for better quality of service, e.g.,
+    big data analytics, big data management, and big data privacy and security. Blockchain
+    with its decentralization and security nature has the great potential to improve
+    big data services and applications. In this article, we provide a comprehensive
+    survey on blockchain for big data, focusing on up-to-date approaches, opportunities,
+    and future directions. First, we present a brief overview of blockchain and big
+    data as well as the motivation behind their integration. Next, we survey various
+    blockchain services for big data, including blockchain for secure big data acquisition,
+    data storage, data analytics, and data privacy preservation. Then, we review the
+    state-of-the-art studies on the use of blockchain for big data applications in
+    different domains such as smart city, smart healthcare, smart transportation,
+    and smart grid. For a better understanding, some representative blockchain-big
+    data projects are also presented and analyzed. Finally, challenges and future
+    directions are discussed to further drive research in this promising area.
+  author: N. Deepa and Quoc-Viet Pham and Dinh C. Nguyen and Sweta Bhattacharya and
+    B. Prabadevi and Thippa Reddy Gadekallu and Praveen Kumar Reddy Maddikunta and
+    Fang Fang and Pubudu N. Pathirana
+  doi: https://doi.org/10.1016/j.future.2022.01.017
+  keywords: Blockchain, Big data, Vertical applications, Smart city, Smart healthcare,
+    Smart transportation, Security
+  title: 'A survey on blockchain for big data: Approaches, opportunities, and future
+    directions'
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: Within the concept of factories of the future, big data analytics systems
+    play a critical role in supporting decision-making at various stages across enterprise
+    processes. However, the design and deployment of industry-ready, lightweight,
+    modular, flexible, and cost efficient big data analytics solutions remains one
+    of the main challenges towards the Industry 4.0 enabled digital transformation.
+    This paper presents an end-to-end IoT-based big data analytics platform that consists
+    of five interconnected layers and several components for data acquisition, integration,
+    storage, analytics and visualisation purposes. The platform architecture benefits
+    from state-of-the-art technologies and integrates them in a systematic and interoperable
+    way with clear information flows. The developed platform has been deployed in
+    an electric vehicle battery module assembly automation system designed by the
+    Automation Systems Group at the University of Warwick, the UK. The developed proof-of-concept
+    solution demonstrates how a wide variety of tools and methods can be orchestrated
+    to work together aiming to support decision-making and to improve both process
+    and product qualities in smart manufacturing environments.
+  author: "Sinan Kahveci and Bugra Alkan and Mus\u2019ab H. Ahmad and Bilal Ahmad\
+    \ and Robert Harrison"
+  doi: https://doi.org/10.1016/j.jmsy.2022.03.010
+  keywords: Big data analytics, Data visualisation, IoT, Industry 4.0, Smart manufacturing
+  title: 'An end-to-end big data analytics platform for IoT-enabled smart factories:
+    A case study of battery module assembly system for electric vehicles'
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: .nan
+  author: C. Oberije and E. Roelofs and G. Nalbantov and A. Dekker and W. Wiessler
+    and M. Eble and W. Dries and L. Janvary and P. Bulens and P. Lambin
+  doi: https://doi.org/10.1016/S0167-8140(15)31883-1
+  keywords: .nan
+  title: 'EP-1765: Big data or good data? Improving the quality of big data by open
+    source clinical research protocols'
+  year: '2014'
+- ENTRYTYPE: article
+  abstract: In recent years, safety intelligence, as a new area of safety science,
+    has emerged as the backbone of safety management, thus receiving increasing research
+    attention. Furthermore, big data and other related technologies have exerted considerable
+    influence on safety intelligence and safety management. This study presents this
+    influence of big data on safety intelligence sources, technologies, methodologies,
+    and management systems, and an analysis of the challenges in traditional safety
+    management. Safety intelligence is confirmed to be an important factor that influences
+    safety management (particularly decision-making). A new research paradigm has
+    emerged, namely, intelligence-led safety management (ILSM), which exemplifies
+    the profound influence of safety intelligence on safety management. The value
+    of ILSM and the function of big data in ILSM are also discussed in this study.
+    Based on the concept, definition, connotation, and other relevant knowledge of
+    safety intelligence, a model for ILSM in a big-data environment is proposed. The
+    model involves safety information, data acquisition, and safety intelligence and
+    ILSM processes, aiming to guide the implementation of ILSM in a big-data environment.
+    In addition, an intelligent urban safety management system is mentioned as an
+    application case.
+  author: Bing Wang and Yuanjie Wang and Fang Yan and Wei Zhao
+  doi: https://doi.org/10.1016/j.ssci.2022.105840
+  keywords: Safety intelligence, Safety management, Intelligence-led, Big data, Urban
+    safety
+  title: 'Safety intelligence toward safety management in a big-data environment:
+    A general model and its application in urban safety management'
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: Recently, Big Data analytics has been one of the most emerging topics
+    in the business field. Data is collected, processed and analyzed to gain useful
+    insight for their organization. Big Data analytics has the potential to improve
+    the quality of life and help to achieve Sustainable Development Goals (SDG). To
+    ensure that SDG goals are achieved, we must utilize existing data to meet those
+    targets and ensure accountability. However, data quality is often left out when
+    dealing with data. Any types of errors presented in the dataset should be properly
+    addressed to ensure the analysis provided is accurate and truthful. In this paper,
+    we have addressed the concept of data quality diagnosis to identify the outlier
+    presented in the dataset. The cause of the outlier is further discussed to identify
+    potential improvements that can be done to the dataset. In addition, recommendations
+    to improve the quality of data and data collection systems are provided.
+  author: Fakhitah Ridzuan and Wan Mohd Nazmee {Wan Zainon}
+  doi: https://doi.org/10.1016/j.procs.2021.12.189
+  keywords: Big data, data quality, outlier, Sustainable Development Goals
+  title: Diagnostic analysis for outlier detection in big data analytics
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: 'Background:
+
+    The energy industry is the leader of the third industrial revolution, and the
+    field of big data is the concrete embodiment of the Internet. With the advent
+    of the era of big data, data is growing at a very fast speed, forming a large
+    number of digital resources including text data, pictures, audio, video and other
+    multimedia data. The application of big data will bring changes in technology
+    application, service mode and development ideas to the power grid.
+
+    Objective:
+
+    The purpose of this paper is to improve the data analysis and data mining ability
+    in the related fields of power energy enterprise management, and improve the service
+    ability and service quality of power marketing business through the informatization
+    construction of power energy enterprises.
+
+    Methods:
+
+    According to the increasingly urgent scientific decision-making needs of large-scale
+    energy enterprises, the paper combines big data technology with cloud computing
+    technology to construct the management information system of electric power and
+    energy enterprises.
+
+    Conclusion:
+
+    The electricity consumption information collection system adopts distributed architecture
+    to collect electricity consumption data, establishes a big data cloud platform,
+    and presents the operation and maintenance information to managers with vivid
+    and intuitive three-dimensional graphics, which facilitates the integration of
+    data resources of multiple heterogeneous operation and maintenance systems, and
+    improves the intuitive perception and judgment ability of operation and maintenance
+    managers on the operation state of data centers to a certain extent.'
+  author: Xinxiang Zhao
+  doi: https://doi.org/10.1016/j.egyr.2022.05.124
+  keywords: Big data, Electric power enterprises, Informatization construction, Visualization
+  title: Research on management informatization construction of electric power enterprise
+    based on big data technology
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "Water pollution generated from intensive anthropogenic activities has\
+    \ emerged as a critical issue concerning ecosystem balance and livelihoods worldwide.\
+    \ Although optimizing wastewater treatment efficiency is widely regarded as the\
+    \ foremost step to minimize pollutants released into the environment, this widespread\
+    \ application has encountered two major problems: firstly, the significant variation\
+    \ of influent wastewater constituents; secondly, complex treatment processes within\
+    \ wastewater treatment plants (WWTPs). Based on the data collected hourly using\
+    \ real-time sensors in three different full-scale WWTPs (24 h \xD7 365 days \xD7\
+    \ 3 WWTPs \xD7 10 wastewater parameters), this work introduced the potential application\
+    \ of Machine Learning (ML) to predict wastewater quality. In this work, six different\
+    \ ML algorithms were examined and compared, varying from shallow to deep learning\
+    \ architectures including Seasonal Autoregressive Integrated Moving Average (SARIMAX),\
+    \ Random Forest (RF), Support Vector Machine (SVM), Gradient Tree Boosting (GTB),\
+    \ Adaptive Neuro-Fuzzy Inference System (ANFIS) and Long Short-Term Memory (LSTM).\
+    \ These models were developed to detect total phosphorus in the outlet (Outlet-TP),\
+    \ which served as an output variable due to the rising concerns about the eutrophication\
+    \ problem. Irrespective of WWTPs, SARIMAX consistently demonstrated the best performance\
+    \ for regression estimation as evidenced by the lowest values of Mean Square Error\
+    \ (MSE), Mean Absolute Error (MAE), Mean Absolute Percentage Error (MAPE) and\
+    \ the highest coefficient of determination (R2). In terms of computation efficiency,\
+    \ SARIMAX exhibited acceptable time computation, acknowledging the successful\
+    \ application of this algorithm for Outlet-TP modeling. In contrast, the complex\
+    \ structure of LSTM made it time-consuming and unstable coupled with noise, while\
+    \ other shallower architectures, i.e., RF, SVM, GTB, and ANFIS were unable to\
+    \ address large datasets with nonlinear and nonstationary behavior. Consequently,\
+    \ this study provides a reliable and accurate approach to forecast wastewater\
+    \ effluent quality, which is pivotal in terms of the socio-economic aspects of\
+    \ wastewater management."
+  author: Quang Viet Ly and Viet Hung Truong and Bingxuan Ji and Xuan Cuong Nguyen
+    and Kyung Hwa Cho and Huu Hao Ngo and Zhenghua Zhang
+  doi: https://doi.org/10.1016/j.scitotenv.2022.154930
+  keywords: Water pollution, Machine learning, Deep learning, Wastewater treatment
+    phosphorus
+  title: Exploring potential machine learning application based on big data for prediction
+    of wastewater quality from different full-scale wastewater treatment plants
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "Purpose/Objective\nOutside of randomized clinical trials, it is difficult\
+    \ to develop clinically relevant evidence-based recommendations for radiotherapy\
+    \ (RT) practice guidelines due to lack of comprehensive real-world data. To address\
+    \ this knowledge gap, we formed the Learning and Analytics from Multicenter Big\
+    \ Data Aggregation (LAMBDA) consortium to cooperatively implement RT data standardization,\
+    \ develop software solutions for data analysis and recommend clinical practice\
+    \ change based on real-world data analyzed. The first phase of this \u201CBig\
+    \ Data\u201D study aimed at characterizing variability in clinical practice patterns\
+    \ of dosimetric data for organs at risk (OAR), that would undermine subsequent\
+    \ use of large scale, electronically aggregated data to characterize associations\
+    \ with outcomes. Evidence from this study was used as the basis for practical\
+    \ recommendations to improve data quality.\nMaterials/Methods\nDosimetric details\
+    \ of patients with H&N cancer treated with RT between 2014 and 2019 were analyzed.\
+    \ Institutional patterns of practice were characterized including structure nomenclature,\
+    \ volumes and frequency of contouring. Dose volume histogram (DVH) distributions\
+    \ were characterized and compared to institutional constraints and literature\
+    \ values.\nResults\nPlans for 4664 patients treated to a mean plan dose of 64.4\
+    \ \xB1 13.2 Gy in 32 \xB1 4 fractions were aggregated. Prior to implementation\
+    \ of TG263 guidelines in each institution, there was variability in OAR nomenclature\
+    \ across institutions and structures. With evidence from this study, we identified\
+    \ a targeted and practical set of recommendations aimed at improving the quality\
+    \ of real-world data.\nConclusion\nQuantifying similarities and differences among\
+    \ institutions for OAR structures and DVH metrics is the launching point for next\
+    \ steps to investigate potential relationships between DVH parameters and patient\
+    \ outcomes."
+  author: Amanda Caissie and Michelle Mierzwa and Clifton David Fuller and Murali
+    Rajaraman and Alex Lin and Andrew MacDonald and Richard Popple and Ying Xiao and
+    Lisanne VanDijk and Peter Balter and Helen Fong and Heping Xu and Matthew Kovoor
+    and Joonsang Lee and Arvind Rao and Mary Martel and Reid Thompson and Brandon
+    Merz and John Yao and Charles Mayo
+  doi: https://doi.org/10.1016/j.adro.2022.100925
+  keywords: .nan
+  title: 'Head and Neck Radiotherapy Patterns of Practice Variability Identified as
+    a Challenge to Real-World Big Data: results from the Learning from Analysis of
+    Multicentre Big Data Aggregation (LAMBDA) Consortium'
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "This paper examines the \u201CV-Matrix\u201D and provides a wave theory\
+    \ life cycle model of organizations\u2019 adoption of big data. The V-Matrix is\
+    \ based on the big data five \u201CV\u2019s\u201D: Volume, Velocity, Variety,\
+    \ Veracity, and Value and captures and enumerates the different potential states\
+    \ that an organization can go through as part of its adoption and evolution towards\
+    \ big data. We extend the V-Matrix to a state space approach in order to provide\
+    \ a characterization of the adoption of big data technologies in an organization.\
+    \ We develop and use a wave theory of implementation to accommodate a firm\u2019\
+    s movement through the V-Matrix. Accordingly, the V-Matrix provides a life cycle\
+    \ model of organizational use of the different aspects of big data. In addition,\
+    \ the model can help organizations\u2019 plan for decision-making use of big data\
+    \ as they anticipate movement from one state to another, as they add big data\
+    \ capabilities. As part of this analysis, the paper examines some of the issues\
+    \ that occur in the different states, including synergies and other issues associated\
+    \ with co-occurrence of different V\u2019s with each other. Finally, this paper\
+    \ integrates the V-Matrix with other data analytic life cycles and examines some\
+    \ of the implications of those models."
+  author: Guido L. Geerts and Daniel E. O'Leary
+  doi: https://doi.org/10.1016/j.accinf.2022.100575
+  keywords: Big Data, Life Cycle, Volume, Velocity, Variety, Veracity, State Space
+    Model, Big Data Theory Development, Life Cycle of Big Data, Wave theory
+  title: 'V-Matrix: A wave theory of value creation for big data'
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: The process of urbanization in the world has improved the quality of people's
+    lives, and has also intensified ecological and environmental problems. Mountain
+    cities are an integral part of the urban ecosystem, and the development of cities
+    is supported by various ecological services provided by the municipal ecosystem.
+    Therefore, it is very important to evaluate the mountain environmental factors
+    that affect the urban ecosystem. The mountain urban ecosystem has more and more
+    complex regional environments and environmental characteristics. Therefore, this
+    article analyzes the municipal ecosystem based on the application of big data,
+    which can provide decision-making directions for city managers and facilitate
+    the development of urbanization. Research on ecosystem services in mountainous
+    cities is compatible with the promotion and improvement of mountainous city planning
+    and management methods. At the same time, this article takes the traditional beauty
+    poems described in Tang poems as examples, and uses the richly poetic landscape
+    perspective to study the natural landscape environment more deeply. The study
+    of natural ecology from a new perspective has further accelerated the pace of
+    research on natural ecosystems, which is conducive to the development of natural
+    landscape environments, provides support for the construction and depth of modern
+    landscape environments, and has a positive impact on the natural ecological landscape
+    of buildings. Through the research of mountain environment factors based on the
+    application of big data, this paper applies it to the study of natural ecology
+    in Tang poetry, thereby promoting the development of the ecological environment.
+  author: Jun Tang and Yi Shen
+  doi: https://doi.org/10.1016/j.jksus.2022.102150
+  keywords: Big data application, Mountain environment factors, Tang poetry, Natural
+    ecology research
+  title: Research on mountain environment factors and tang poetry's natural ecology
+    using big data in the ecological urbanization
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "With the widespread use of digital technologies such as big data, cloud\
+    \ computing and artificial intelligence in higher education, how to establish\
+    \ a scientific and systematic evaluation system to turn the traditional classroom\
+    \ with the one-way transmission of knowledge into an interactive space for exchanging\
+    \ ideas and inspiring wisdom has become an essential task for human resource management\
+    \ in universities, and a key to improving teaching quality. However, due to the\
+    \ debate between scientism and humanism in teaching evaluation, studies related\
+    \ to teaching performance have been isolated from human resource management, resulting\
+    \ in the lack of a systematic vision and framework for such studies. Relevant\
+    \ studies are still limited to the evaluation contents of different evaluation\
+    \ subjects. Evaluations also tend to focus only on the teaching process, ignoring\
+    \ the objectives of talent training, making it difficult for evaluations to play\
+    \ a goal-oriented role and hindering the further development of relevant studies.\
+    \ Therefore, this paper draws on human resource management methodologies and analyzes\
+    \ knowledge teaching evaluation system characteristics in colleges and universities\
+    \ in a big data context to construct a \u201Cmultiple evaluations, trinity and\
+    \ four-step closed-loop\u201D big data-based knowledge teaching evaluation system.\
+    \ \u201CTrinity\u201D represents evaluation from three performance dimensions:\
+    \ teaching effect, teaching behavior and teaching ability. \u201CMultiple evaluations\u201D\
+    \ represents the design of teaching performance indicators based on teaching data,\
+    \ breaking the barriers between different evaluation subjects. \u201CFour-step\
+    \ closed-loop\u201D draws on performance management theory to standardize the\
+    \ teaching performance management process from four aspects: planning, implementation,\
+    \ evaluation, and feedback. This evaluation system provides a systematic methodology\
+    \ for unifying the theory and practice of innovative knowledge teaching evaluation\
+    \ system in universities in a big data context."
+  author: Xu Xin and Yu Shu-Jiang and Pang Nan and Dou ChenXu and Li Dan
+  doi: https://doi.org/10.1016/j.jik.2022.100197
+  keywords: Big data, Knowledge teaching evaluation, Performance management
+  title: Review on A big data-based innovative knowledge teaching evaluation system
+    in universities
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "Background\nMagnetic resonance imaging (MRI)-based morphometry and relaxometry\
+    \ are proven methods for the structural assessment of the human brain in several\
+    \ neurological disorders. These procedures are generally based on T1-weighted\
+    \ (T1w) and/or T2-weighted (T2w) MRI scans, and rigid and affine registrations\
+    \ to a standard template(s) are essential steps in such studies. Therefore, a\
+    \ fully automatic quality control (QC) of these registrations is necessary in\
+    \ big data scenarios to ensure that they are suitable for subsequent processing.\n\
+    Method\nA supervised machine learning (ML) framework is proposed by computing\
+    \ similarity metrics such as normalized cross-correlation, normalized mutual information,\
+    \ and correlation ratio locally. We have used these as candidate features for\
+    \ cross-validation and testing of different ML classifiers. For 5-fold repeated\
+    \ stratified grid search cross-validation, 400 correctly aligned, 2000 randomly\
+    \ generated misaligned images were used from the human connectome project young\
+    \ adult (HCP-YA) dataset. To test the cross-validated models, the datasets from\
+    \ autism brain imaging data exchange (ABIDE I) and information eXtraction from\
+    \ images (IXI) were used.\nResults\nThe ensemble classifiers, random forest, and\
+    \ AdaBoost yielded best performance with F1-scores, balanced accuracies, and Matthews\
+    \ correlation coefficients in the range of 0.95\u20131.00 during cross-validation.\
+    \ The predictive accuracies reached 0.99 on the Test set #1 (ABIDE I), 0.99 without\
+    \ and 0.96 with noise on Test set #2 (IXI, stratified w.r.t scanner vendor and\
+    \ field strength).\nConclusions\nThe cross-validated and tested ML models could\
+    \ be used for QC of both T1w and T2w rigid and affine registrations in large-scale\
+    \ MRI studies."
+  author: Sudhakar Tummala and Venkata Sainath Gupta Thadikemalla and Barbara A.K.
+    Kreilkamp and Erik B. Dam and Niels K. Focke
+  doi: https://doi.org/10.1016/j.compbiomed.2021.104997
+  keywords: Structural MRI, Big data, Machine learning, Quality control, Image registration
+  title: Fully automated quality control of rigid and affine registrations of T1w
+    and T2w MRI in big data using machine learning
+  year: '2021'
+- ENTRYTYPE: article
+  abstract: "Over the last years, big data has emerged as a new paradigm for the processing\
+    \ and analysis of massive volumes of data. Big data processing has been combined\
+    \ with service and cloud computing, leading to a new class of services called\
+    \ \u201CBig Services\u201D. In this new model, services can be seen as an abstract\
+    \ layer that hides the complexity of the processed big data. To meet users' complex\
+    \ and heterogeneous needs in the era of big data, service reuse is a natural and\
+    \ efficient means that helps orchestrating available services' operations, to\
+    \ provide customer on-demand big services. However different from traditional\
+    \ Web service composition, composing big services refers to the reuse of, not\
+    \ only existing high-quality services, but also high-quality data sources, while\
+    \ taking into account their security constraints (e.g., data provenance, threat\
+    \ level and data leakage). Moreover, composing heterogeneous and large-scale data-centric\
+    \ services faces several challenges, apart from security risks, such as the big\
+    \ services' high execution time and the incompatibility between providers' policies\
+    \ across multiple domains and clouds. Aiming to solve the above issues, we propose\
+    \ a scalable approach for big service composition, which considers not only the\
+    \ quality of reused services (QoS), but also the quality of their consumed data\
+    \ sources (QoD). Since the correct representation of big services requirements\
+    \ is the first step towards an effective composition, we first propose a quality\
+    \ model for big services and we quantify the data breaches using L-Severity metrics.\
+    \ Then to facilitate processing and mining big services' related information during\
+    \ composition, we exploit the strong mathematical foundation of fuzzy Relational\
+    \ Concept Analysis (fuzzy RCA) to build the big services' repository as a lattice\
+    \ family. We also used fuzzy RCA to cluster services and data sources based on\
+    \ various criteria, including their quality levels, their domains, and the relationships\
+    \ between them. Finally, we define algorithms that parse the lattice family to\
+    \ select and compose high-quality and secure big services in a parallel fashion.\
+    \ The proposed method, which is implemented on top of Spark big data framework,\
+    \ is compared with two existing approaches, and experimental studies proved the\
+    \ effectiveness of our big service composition approach in terms of QoD-aware\
+    \ composition, scalability, and security breaches."
+  author: Mokhtar Sellami and Haithem Mezni and Mohand Said Hacid
+  doi: https://doi.org/10.1016/j.jnca.2020.102732
+  keywords: Big data, Big service, Big service composition, Quality of big services,
+    Fuzzy RCA, Spark
+  title: On the use of big data frameworks for big service composition
+  year: '2020'
+- ENTRYTYPE: article
+  abstract: This article investigates how auditors come to make a longer-term commitment
+    to their profession through coping with the demands and intensity of working in
+    the Big Four firms. Through analysis of ethnographic data and thirty-one interviews,
+    we show that the difficulties of team work and the complexity of audit engagements
+    can lead auditors to develop emotional qualities of constructive pedagogy, pragmatic
+    self-abnegation, and collective resilience. These qualities may help auditors
+    to manage the intensity of the negative and positive emotions triggered by their
+    work, and to find longer-term strategies for dealing with the constraints inherent
+    in auditing. Our study does not aim to suggest unduly that all auditors are capable
+    of developing these emotional qualities, but rather to shed light on the dynamic
+    of emotions that drives some auditors to bond with each other, and thus in some
+    cases commit to the profession for the longer term.
+  author: Pauline Beau and Lambert Jerman
+  doi: https://doi.org/10.1016/j.cpa.2021.102356
+  keywords: Auditor, Big Four, Emotion, Emotional quality, Ethnography, Commitment
+  title: "Bonding forged in \u201Cauditing hell\u201D: The emotional qualities of\
+    \ Big Four auditors"
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: 'Summary
+
+    Real-world data (RWD) are observational data obtained by collecting, structuring,
+    and accumulating patient information among the medical big data. RWD are derived
+    from a variety of patient medical care and health information outside of conventional
+    research data, and include electronic health records, claims data, registry data
+    of disease, drug and device, health check-up data, and more recently, patient
+    information data from wearable devices. They are currently being utilized in various
+    forms for optimal medical care and real-world evidence (RWE) is constructed through
+    a process of hypothesis generation and verification based on the RWD research.
+    Together with classic clinical research and pragmatic trials, RWE shapes the learning
+    healthcare system and contributes to the improvement of medical care. In the cardiovascular
+    medical care of the current super-aged society, the need for a variety of RWE
+    and the research is increasing, since the guidelines established over time and
+    the medical care based on it cannot necessarily be the best in accordance with
+    the current medical situation. In this review, we focus on the RWD and RWE studies
+    in the cardiovascular medical field and outlines their current status in Japan.
+    Furthermore, we discuss the potential for extending the studies and issues related
+    to the use of medical big data and RWD.'
+  author: Reina Tonegawa-Kuji and Koshiro Kanaoka and Yoshitaka Iwanaga
+  doi: https://doi.org/10.1016/j.jjcc.2022.09.006
+  keywords: Big data, Cardiovascular disease, Real-world data, Real-world evidence,
+    Superaged society
+  title: Current status of real-world big data research in the cardiovascular field
+    in Japan
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: Notwithstanding the potential of big data analytics technology for alliance
+    management, there is a lack of understanding of how such digital technology influences
+    alliance relationship stability (ARS). Drawing on the information technology-enabled
+    organizational capabilities (IT-enabled OCs) perspective, this study empirically
+    verifies that big data analytics promotes ARS and risk management capability.
+    Moreover, market risk management capability (MRM) enhances ARS, and data quality
+    moderates the relationship between big data analytics usage (BDU) and MRM. This
+    research reveals the impact mechanism of BDU on the ARS. Implications for management
+    and future research are presented as well.
+  author: Shunzhi Lin and Jiabao Lin and Feiyun Han and Xin (Robert) Luo
+  doi: https://doi.org/10.1016/j.im.2022.103680
+  keywords: Big data analytics, Risk management capability, Data quality, Alliance
+    relationship stability
+  title: How big data analytics enables the alliance relationship stability of contract
+    farming in the age of digital transformation
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: .nan
+  author: "Robert B.M. Landew\xE9 and D\xE9sir\xE9e {van der Heijde}"
+  doi: https://doi.org/10.1016/j.rdc.2018.01.007
+  keywords: Imaging, Statistical analysis, Reliability, Variability, Generalized estimating
+    equations, Generalized linear mixed model
+  title: "\u201CBig Data\u201D in Rheumatology: Intelligent Data Modeling Improves\
+    \ the Quality of Imaging Data"
+  year: '2018'
+- ENTRYTYPE: article
+  abstract: "Data quality (DQ) assessment is essential for realizing the promise of\
+    \ big data by judging the value of data in advance. Relevance, an indispensable\
+    \ dimension of DQ, focusing on \u201Cfitness for requirement\u201D, can arouse\
+    \ the user\u2019s interest in exploiting the data source. It has two-level evaluations:\
+    \ (1) the amount of data that meets the user\u2019s requirements; (2) the matching\
+    \ degree of these relevant data. However, there lack works of DQ assessment at\
+    \ dimension of relevance, especially for unstructured image data which focus on\
+    \ semantic similarity. When we try to evaluate semantic relevance between an image\
+    \ data source and a query (requirement), there are three challenges: (1) how to\
+    \ extract semantic information with generalization ability for all image data?\
+    \ (2) how to quantify relevance by fusing the quantity of relevant data and the\
+    \ degree of similarity comprehensively? (3) how to improve assessing efficiency\
+    \ of relevance in a big data scenario by design of an effective architecture?\
+    \ To overcome these challenges, we propose a semantic-aware data quality assessment\
+    \ (SDQA) architecture which includes off-line analysis and on-line assessment.\
+    \ In off-line analysis, for an image data source, we first transform all images\
+    \ into hash codes using our improved Deep Self-taught Hashing (IDSTH) algorithm\
+    \ which can extract semantic features with generalization ability, then construct\
+    \ a graph using hash codes and restricted Hamming distance, next use our designed\
+    \ Semantic Hash Ranking (SHR) algorithm to calculate the importance score (rank)\
+    \ for each node (image), which takes both the quantity of relevant images and\
+    \ the degree of semantic similarity into consideration, and finally rank all images\
+    \ in descending order of score. During on-line assessment, we first convert the\
+    \ user\u2019s query into hash codes using IDSTH model, then retrieve matched images\
+    \ to collate their importance scores, and finally help the user determine whether\
+    \ the image data source is fit for his requirement. The results on public dataset\
+    \ and real-world dataset show effectiveness, superiority and on-line efficiency\
+    \ of our SDQA architecture."
+  author: Yu Liu and Yangtao Wang and Ke Zhou and Yujuan Yang and Yifei Liu
+  doi: https://doi.org/10.1016/j.future.2019.07.063
+  keywords: Semantic-aware, Quality assessment, Image big data, IDSTH, SHR
+  title: Semantic-aware data quality assessment for image big data
+  year: '2020'
+- ENTRYTYPE: article
+  abstract: The digital data available on the World Wide Web is currently measured
+    in zettabytes. These vast repositories of Big Web Data are increasingly viewed
+    as a strategic resource comparable in value to land, gold, and oil. This Big Web
+    Data can be extracted and analyzed by organizations for the purposes of gaining
+    a better understanding of their internal and external environment and improving
+    organizational performance. Because of these opportunities, automated retrieval
+    and organization of Web data (or Web Scraping) for research projects is becoming
+    a common practice. This article educates the reader about the data-related, technical,
+    legal, and ethical issues related to Web Scraping. Awareness of these issues can
+    help researchers save time and other resources and, most importantly, mitigate
+    potential risk of ethical controversies or even lawsuits in relation to the retrieval
+    and use of Big Web Data.
+  author: Vlad Krotov and Leigh Johnson
+  doi: https://doi.org/10.1016/j.bushor.2022.10.001
+  keywords: Big data, Web data, Web scraping, Law, Ethics
+  title: 'Big web data: Challenges related to data, technology, legality, and ethics'
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: Big data initiatives are critical for transforming traditional organizational
+    decision making into data-driven decision making. However, prior information systems
+    research has not paid enough attention to the impact of big data analytics usage
+    on decision-making quality. Drawing on the dynamic capability theory, this study
+    investigated the impact of big data analytics usage on decision-making quality
+    and tested the mediating effect of data analytics capabilities. We collected data
+    from 240 agricultural firms in China. The empirical results showed that big data
+    analytics usage had a positive impact on decision-making quality and that data
+    analytics capabilities played a mediating role in the relationship between big
+    data analytics usage and decision-making quality. Hence, firms should not only
+    popularize big data analytics usage in their business activities but also take
+    measures to improve their data analytics capabilities, which will improve their
+    decision-making quality toward competitive advantages.
+  author: Lei Li and Jiabao Lin and Ye Ouyang and Xin (Robert) Luo
+  doi: https://doi.org/10.1016/j.techfore.2021.121355
+  keywords: Big data analytics usage, Data analytics capabilities, Decision-making
+    quality, Agricultural firms
+  title: Evaluating the impact of big data analytics usage on the decision-making
+    quality of organizations
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "The water quality prediction performance of machine learning models may\
+    \ be not only dependent on the models, but also dependent on the parameters in\
+    \ data set chosen for training the learning models. Moreover, the key water parameters\
+    \ should also be identified by the learning models, in order to further reduce\
+    \ prediction costs and improve prediction efficiency. Here we endeavored for the\
+    \ first time to compare the water quality prediction performance of 10 learning\
+    \ models (7 traditional and 3 ensemble models) using big data (33,612 observations)\
+    \ from the major rivers and lakes in China from 2012 to 2018, based on the precision,\
+    \ recall, F1-score, weighted F1-score, and explore the potential key water parameters\
+    \ for future model prediction. Our results showed that the bigger data could improve\
+    \ the performance of learning models in prediction of water quality. Compared\
+    \ to other 7 models, decision tree (DT), random forest (RF) and deep cascade forest\
+    \ (DCF) trained by data sets of pH, DO, CODMn, and NH3\u2013N had significantly\
+    \ better performance in prediction of all 6 Levels of water quality recommended\
+    \ by Chinese government. Moreover, two key water parameter sets (DO, CODMn, and\
+    \ NH3\u2013N; CODMn, and NH3\u2013N) were identified and validated by DT, RF and\
+    \ DCF to be high specificities for perdition water quality. Therefore, DT, RF\
+    \ and DCF with selected key water parameters could be prioritized for future water\
+    \ quality monitoring and providing timely water quality warning."
+  author: Kangyang Chen and Hexia Chen and Chuanlong Zhou and Yichao Huang and Xiangyang
+    Qi and Ruqin Shen and Fengrui Liu and Min Zuo and Xinyi Zou and Jinfeng Wang and
+    Yan Zhang and Da Chen and Xingguo Chen and Yongfeng Deng and Hongqiang Ren
+  doi: https://doi.org/10.1016/j.watres.2019.115454
+  keywords: Water quality prediction, Machine learning models, Ensemble methods, Deep
+    cascade forest, The key water parameters
+  title: Comparative analysis of surface water quality prediction performance and
+    identification of key water parameters using different machine learning models
+    based on big data
+  year: '2020'
+- ENTRYTYPE: article
+  abstract: Information technologies involving artificial Intelligence, big data,
+    Internet of Things devices and blockchain have been developed and implemented
+    in many engineering fields worldwide. Existing review articles focus on developments
+    and characteristics of individual topics and the associated deployment in the
+    energy sector. These technologies, all based on communication, information, and
+    data analysis, are naturally coherent and integrable. This article reviews the
+    literature and patents in four closely related fields and aims to provide a holistic
+    view of how they are related and their integrability in relation to smart energy
+    management strategies. Artificial intelligence models forecast energy use and
+    load profiles as well as schedule resources to ensure reliable performance and
+    effective utilization of energy resources. Training artificial intelligence models
+    requires immense volumes of data. Utilizing big data systems and data mining enables
+    the discovery of new functions and relationships, which determines the performance
+    of artificial intelligence. Data mining also refines the information; thus, artificial
+    intelligence is trained iteratively with more accurate data. Smart energy management
+    can be further enhanced through advanced digital technologies like Internet of
+    Things and blockchain. An Internet of Things platform containing edge, fog and
+    cloud layers helps connect artificial intelligence to other hardware and software
+    devices and systems. Furthermore, an Internet of Things platform efficiently transmits
+    and stores data, improving access and availability to stakeholders for data mining.
+    Emerging technologies such as blockchain and cryptocurrency facilitate energy
+    trading and can be designed in the cloud layer of an Internet of Things platform
+    to supplement data storage. Providing an efficient and seamless integration of
+    artificial intelligence, big data, and advanced digital technologies will be an
+    important factor in the emerging transition of the energy sector to a lower-carbon
+    system.
+  author: Joey Li and Munur Sacit Herdem and Jatin Nathwani and John Z. Wen
+  doi: https://doi.org/10.1016/j.egyai.2022.100208
+  keywords: Artificial Intelligence, Big Data, Digital technology, Smart grid, IoT,
+    Blockchain
+  title: Methods and applications for Artificial Intelligence, Big Data, Internet
+    of Things, and Blockchain in smart energy management
+  year: '2023'
+- ENTRYTYPE: article
+  abstract: .nan
+  author: J. Sen and R. Moxham-Smith and T. Marwick
+  doi: https://doi.org/10.1016/j.hlc.2021.06.201
+  keywords: .nan
+  title: Concerns Over Robustness of Big Data Analysis Revealed by Quality Assessment
+    of Echocardiography Data From a Single Centre
+  year: '2021'
+- ENTRYTYPE: article
+  abstract: Today, in a smart manufacturing environment based on the Industry 4.0
+    paradigm, people, technological infrastructure and machinery equipped with sensors
+    can constantly generate and communicate a huge volume of data, also known as Big
+    Data. The manufacturing industry takes advantage of Big Data and analytics evolution
+    by improving its capability to bring out valuable information and knowledge from
+    industrial processes, production systems and sensors. The adoption of model-based
+    frameworks in the Big Data Analytics pipeline can better address user configuration
+    requirements (e.g. type of analysis to perform, type of algorithm to be applied)
+    and also provide more transparency and clearness on the execution of workflows
+    and data processing. In the current state of art, an application of a model-based
+    framework in a manufacturing scenario is missing. Therefore, in this study, by
+    means of a case study research focused on data from sensors associated with Computer
+    Numerical Control machines, the configuration and execution of a Big Data Analytics
+    pipeline with a Model-based Big Data Analytics-as-a-Service framework is described.
+    The case study provides to theoreticians and managerial experts useful evidence
+    for managing real-time data analytics and deploying a workflow that addresses
+    specific analytical goals, driven by user requirements and developer models, in
+    a complex manufacturing domain.
+  author: Angelo Corallo and Anna Maria Crespino and Mariangela Lazoi and Marianna
+    Lezzi
+  doi: https://doi.org/10.1016/j.rcim.2022.102331
+  keywords: Big Data Analytics, BDA, MBDAaaS framework, Smart manufacturing, Industry
+    4.0, Anomaly detection
+  title: 'Model-based Big Data Analytics-as-a-Service framework in smart manufacturing:
+    A case study'
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: In this paper we aim to classify digital data sources for the measurement
+    of tourist mobility, to establish a set of assessment indicators, and to compare
+    two Big Data sources to gain empirical insights into how we can measure tourism
+    with Big Data. For three holiday destinations in Germany, passive mobile data
+    and passive global positioning systems (GPS) data are compared with reference
+    data from the destinations for twelve weeks in the summer of 2019. Results show
+    that mobile network data are on a plausible level compared to the local reference
+    data and are able to predict the temporal pattern to a very high degree. GPS app-based
+    data also perform well, but are less plausible and precise than mobile network
+    data.
+  author: "Dirk Schm\xFCcker and Julian Reif"
+  doi: https://doi.org/10.1016/j.annale.2022.100061
+  keywords: Big Data, Mobile Network Data, Passive GPS Data, Spatio-temporal behaviour,
+    Tourist classification
+  title: Measuring tourism with big data? Empirical insights from comparing passive
+    GPS data and passive mobile data
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "Big data applications, from its inception have experienced unprecedented\
+    \ changes in technological revolution and development. The need of the hour is\
+    \ to use big data to break through the incompatible bottleneck of environment\
+    \ protection and development. Therefore, this paper constructs a theoretical model\
+    \ to evaluate the changes of relative benefits big data have on R&D through \u201C\
+    substitution effects\u201D, \u201Ccomplementary effects\u201D, and further lead\
+    \ to directed technical change and its impact on the environmental quality. For\
+    \ better understanding the role of big data, we compare different impacts on environmental\
+    \ quality both by considering the big data application and by ignoring it. In\
+    \ addition, we analyze the required environmental regulation policy adjustments\
+    \ under the influence of big data. The results show that: (1) By improving the\
+    \ relative benefits of clean technology R&D, the application of big data further\
+    \ enhances the quality of the environment. (2) Mere relying on the application\
+    \ of big data alone cannot prevent environmental disasters, but it must be supplemented\
+    \ with conducive environmental regulation policy to achieve the best results.\
+    \ (3) The application of big data can reduce the \u201Csubsidy\u201D for clean\
+    \ technology R&D to avoid environmental disasters, while the impact of big data\
+    \ on \u201Cenvironmental taxes\u201D varies with the development of clean technology\
+    \ levels. The results of this research will help to clarify the positive effects\
+    \ of big data on environmental quality and implement reasonable environmental\
+    \ regulation policy."
+  author: Jun Yang and Xiaoming Li and Shoujun Huang
+  doi: https://doi.org/10.1016/j.jclepro.2020.124126
+  keywords: Big data, Directed technical change, Environmental quality, Environmental
+    regulation policy
+  title: 'Impacts on environmental quality and required environmental regulation adjustments:
+    A perspective of directed technical change driven by big data'
+  year: '2020'
+- ENTRYTYPE: article
+  abstract: Prior research has confirmed the importance of IT-business alignment (ITBA)
+    and big data analytics capability (BDAC) in supporting firms' strategic decision-making
+    under normal circumstances. However, the global outbreak of COVID-19 has significantly
+    changed firms' strategic decision-making landscapes and raised questions regarding
+    the effects of ITBA and BDAC on strategic decision-making as conditioned by COVID-19
+    characteristics. In this study, we contextualize two important event impact factors
+    (i.e., event criticality and event disruption) in the context of COVID-19 and
+    examine their contingent roles in the effects of ITBA and BDAC on strategic decision-making.
+    Our analyses, based on two-round, multi-respondents matched survey data collected
+    from 175 Chinese firms to elucidate the differential moderating roles of event
+    criticality and disruption of COVID-19 in the impact of ITBA and BDAC on strategic
+    decision speed and quality. The results indicate the event criticality of COVID-19
+    strengthens the effects of ITBA on decision speed and quality but weakens the
+    influence of BDAC on decision quality. Meanwhile, the event disruption of COVID-19
+    weakens the influence of ITBA on decision speed and quality but strengthens the
+    effect of BDAC on decision speed and quality. These findings have important theoretical
+    and practical implications, which we discuss in the conclusion.
+  author: Lifan Chen and Hefu Liu and Zhongyun Zhou and Meng Chen and Yao Chen
+  doi: https://doi.org/10.1016/j.dss.2022.113745
+  keywords: IT-business alignment, Big data analytics capability, Event disruption
+    of COVID-19, Event criticality of COVID-19, Decision speed, Decision quality
+  title: 'IT-business alignment, big data analytics capability, and strategic decision-making:
+    Moderating roles of event criticality and disruption of COVID-19'
+  year: '2022'
+- ENTRYTYPE: article
+  abstract: "Today, personalized medicine is closer to reality than ever before through\
+    \ targeted treatment, however, the substantial increase in data correspondingly\
+    \ requires scalable systems to continue to effectively manage the data and to\
+    \ remain current with advancing technology. As organizations move to advance translational\
+    \ research to achieve personalized medicine, researchers and clinicians must manage\
+    \ informatics, however, there is a shortage of fully integrated informatics solutions\
+    \ that integrate, store, and analyze clinical and omics data from diverse sources\
+    \ \u2013 generated in-house as well as public consortiums. Many researchers and\
+    \ clinicians must rely on bioinformaticians to perform mundane data management\
+    \ tasks in order to validate a simple hypothesis. Oracle Health Sciences Translational\
+    \ Research Center provides a complete and scalable informatics solution, with\
+    \ centralized data storage and analysis across genetic information areas (genomics,\
+    \ transcriptomics, and proteomics), vendor platforms, biological data types, and\
+    \ clinical data sources. Organizations such as Cancer Research UK, Erasmus MC,\
+    \ MD Anderson Cancer Center and UPMC have adopted this solution and are evaluating\
+    \ treatment responses for similar patients in a self-sufficient manner, ultimately\
+    \ shortening the biomarker development cycle and accelerating the adoption of\
+    \ personalized medicine."
+  author: Joel Haspel
+  doi: https://doi.org/10.1016/j.nhtm.2014.11.011
+  keywords: .nan
+  title: A big data platform to enable integration of high quality clinical data and
+    next generation sequencing data
+  year: '2015'
+- ENTRYTYPE: article
+  abstract: The healthcare supply chain involves the manufacturing and delivery of
+    medicines at the right time, at the right place, and in the correct quantity.
+    In the world of uncertainties, especially deadly pandemics, the digitalization
+    of the healthcare supply chain has emerged as one of the urgent phenomena to implement,
+    for which organizations are focussing on the omnichannel healthcare approach.
+    This paper explores (a) the antecedents of big data analytics and artificial intelligence
+    (BDA-AI) technology-based collaborative platform for empowering absorptive capacity
+    in omnichannel health care processes; (b) the effect of BDA-AI collaborative platform
+    powered absorptive capacity in omnichannel health care processes and organization
+    performance. The data is collected using a structured questionnaire from healthcare
+    supply chain executives working in South Africa. The findings indicate that the
+    involvement of managerial factors will improve the capacity of health care organizations
+    to develop a BDA-AI technology-driven collaborative platform to assimilate, transfer
+    and exploit critical information from large data sets. It will capacitate healthcare
+    supply chains to deliver innovative performance to healthcare businesses. This
+    work is the first of its kind to examine big data-based knowledge gained in the
+    context of the omnichannel supply chain.
+  author: Surajit Bag and Pavitra Dhamija and Rajesh Kumar Singh and Muhammad Sabbir
+    Rahman and V. Raja Sreedharan
+  doi: https://doi.org/10.1016/j.jbusres.2022.113315
+  keywords: Omnichannel, Healthcare business, Artificial intelligence, Big data analytics,
+    Collaborative platform, Healthcare supply chain, Developing countries
+  title: 'Big data analytics and artificial intelligence technologies based collaborative
+    platform empowering absorptive capacity in health care supply chain: An empirical
+    study'
+  year: '2023'
+- ENTRYTYPE: article
+  abstract: The application of big data to the quality assurance of radiation therapy
+    is multifaceted. Big data can be used to detect anomalies and suboptimal quality
+    metrics through both statistical means and more advanced machine learning and
+    artificial intelligence. The application of these methods to clinical practice
+    is discussed through examples of guideline adherence, contour integrity, treatment
+    delivery mechanics, and treatment plan quality. The ultimate goal is to apply
+    big data methods to direct measures of patient outcomes for care quality. The
+    era of big data and machine learning is maturing and the implementation for quality
+    assurance promises to improve the quality of care for patients.
+  author: Todd R. McNutt and Kevin L. Moore and Binbin Wu and Jean L. Wright
+  doi: https://doi.org/10.1016/j.semradonc.2019.05.006
+  keywords: .nan
+  title: Use of Big Data for Quality Assurance in Radiation Therapy
+  year: '2019'
