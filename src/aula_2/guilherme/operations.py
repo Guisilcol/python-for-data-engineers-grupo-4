@@ -11,6 +11,7 @@ def apply_to_every_row(df: pd.DataFrame, output_col: str, func):
     return df
 
 def create_column(df: pd.DataFrame, col_name: str, col_type: str, col_default_value):
+    """Cria uma nova coluna no dataframe"""
     df = df.copy()
     df[col_name] = col_default_value
     df[col_name] = df[col_name].astype(col_type)
