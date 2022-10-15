@@ -1,0 +1,12 @@
+export_format: "json"
+filters:   
+  title:         #Inserir uma REGEX
+  keywords:         #Inserir uma REGEX
+  abstract:         #Inserir uma REGEX
+  year:             #Inserir um número inteiro
+  ENTRYTYPE:        #Inserir uma REGEX
+  doi:              #Inserir uma REGEX
+  jcs_value:       #Inserir um número inteiro
+  scimago_value:    #Inserir um número inteiro
+
+
