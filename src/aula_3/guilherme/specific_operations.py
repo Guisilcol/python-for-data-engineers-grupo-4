@@ -20,9 +20,9 @@ def filter_column_by_regex(df: pd.DataFrame, config: dict):
         year = config.get('filters').get("year")
         df = df[df.year == year]
 
-    if not config.get('filters').get("ENTRYTYPE") == None:
-        regex = config.get('filters').get("ENTRYTYPE")
-        df = df[df.ENTRYTYPE.str.match(regex)]
+    if not config.get('filters').get("type_publication") == None:
+        regex = config.get('filters').get("type_publication")
+        df = df[df.type_publication.str.match(regex)]
 
     if not config.get('filters').get("doi") == None:
         regex = config.get('filters').get("doi")
