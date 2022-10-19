@@ -1,9 +1,9 @@
 export_format: "json"
 filters:   
   title:         #Inserir uma REGEX
-  keywords:        #Inserir uma REGEX
+  keywords:     #Inserir um array de keywords  
   abstract:         #Inserir uma REGEX
-  year:           #Inserir um número inteiro
+  year:           #Inserir um array de numeros inteiros
   type_publication:        #Inserir uma REGEX
   doi:              #Inserir uma REGEX
   jcs_value:       #Inserir um número inteiro
