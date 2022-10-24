@@ -1,3 +1,5 @@
+#COMMIT DA AULA 2
+
 import pandas as pd 
 
 def map(df: pd.DataFrame, cols: list):
