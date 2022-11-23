@@ -63,5 +63,11 @@ class SpecificOperations:
             dataframe.to_xml(f"{output_folder}/data.xml", index=False)
 
         return dataframe
-    
+
+    @staticmethod
+    def generate_key_with_journal_name(series: pd.Series):
+        return series.str.replace("&", "AND")\
+                            .str.replace(r"([^A-Za-z0-9]+)", "")\
+                            .str.upper()\
+                            .str.strip()\
       
