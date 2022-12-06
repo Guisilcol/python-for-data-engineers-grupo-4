@@ -52,7 +52,7 @@ class IeeeApiHandler():
                     "title": article.get("title"),
                     "keywords": keywords,
                     "abstract": article.get("abstract"),
-                    "year": article.get("publication_year"),
+                    "year": article.get("publication_year"),    
                     "type_publication": article.get("content_type"),
                     "doi": article.get("doi"),
                     "issn": article.get("issn"),

@@ -1,4 +1,4 @@
-export_format: "xml"
+export_format: "json"
 filters:   
   title: #"Big Data"            #Inserir uma REGEX
   keywords: #["Data Quality", "Big Data"]         #Inserir um array de keywords  
