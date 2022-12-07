@@ -11,6 +11,7 @@ from database import Database
 from bibtexparser import loads as parse_bibtex
 import asyncio
 import traceback
+from uuid import uuid4 as generate_uuid
 
 
 class Service():
@@ -22,13 +23,13 @@ class Service():
             return Database.execute(connection, query, [])
 
         async def __get_data_from_ieee_api(pages_quantity: tp.Union[int, None], query_terms: tp.Union[str, None]):
-            if pages_quantity is None:
+            if pages_quantity == None:
                 pages_quantity = 1
             
             return IeeeApiHandler.get_data(iee_api_page_quantity=pages_quantity, iee_api_query_terms=query_terms)
 
         async def __get_data_from_science_direct_api(pages_quantity: tp.Union[int, None], query_terms: tp.Union[str, None]):
-            if pages_quantity is None:
+            if pages_quantity == None:
                 pages_quantity = 1
 
             return ScienceDirectApiHandler.get_data(science_direct_page_quantity=pages_quantity, science_direct_query_terms=query_terms)
@@ -37,7 +38,6 @@ class Service():
 
         try:
             allowed_operators = ["=", ">", "<", ">=", "<=", "<>", "like", "in", "is null", "is not null"]
-            
             req_params = GetMethodRequestParamsModel(**dict(request.query_params)) #type: ignore
             
             if not ValidateQueryParams.validade("author", req_params.author, allowed_operators):
@@ -67,14 +67,17 @@ class Service():
             if not ValidateQueryParams.validade("scimago_value", req_params.scimago_value, allowed_operators):
                 return Response.make_error_response(response, 400, "Invalid operator or syntax in 'scimago_value'")
 
+            if Database.verify_if_row_exists(connection, "SELECT * FROM tb_consulta WHERE metadata_id = ? and metadata_id is not null", [req_params.metadata_id]):
+                return Response.make_error_response(response, 400, "Metadata id already exists")
+
             generated_where_condition_tb_bibtex_extraidos_manualmente = DynamicWhereConditionGenerator.generate_for_tb_bibtex_extraidos_manualmente(req_params)
             generated_where_condition_tb_bibtex_inseridos_via_api = DynamicWhereConditionGenerator.generate_for_tb_bibtex_inseridos_via_api(req_params)
 
-            query = f"""SELECT distinct author, title, keywords, abstract, year, type_publication, doi, issn, journal, url 
+            query = f"""SELECT distinct author, title, keywords, abstract, year, type_publication, doi, issn, journal, url, jcs_value, scimago_value, source 
                         FROM tb_bibtex_extraidos_manualmente
                         WHERE {generated_where_condition_tb_bibtex_extraidos_manualmente}
                         UNION
-                        SELECT distinct author, title, keywords, abstract, year, type_publication, doi, issn, journal, url 
+                        SELECT distinct author, title, keywords, abstract, year, type_publication, doi, issn, journal, url, null as jcs_value, null scimago_value, 'via post request in /articles' as source
                         FROM tb_bibtex_inseridos_via_api
                         WHERE {generated_where_condition_tb_bibtex_inseridos_via_api};
                         """
@@ -85,12 +88,28 @@ class Service():
 
             data = await asyncio.gather(future_database_data, future_ieee_api_data, future_science_direct_api_data)
 
+            metadata_id = None
+            if req_params.metadata_id != None and req_params.metadata_id.strip() != "":
+                metadata_id = req_params.metadata_id
+                Database.execute(connection, "INSERT INTO tb_consulta (metadata_id, author, title, keywords, abstract, year, type_publication, doi, jcs_value, scimago_value, iee_api_page_quantity, iee_api_query_terms, science_direct_page_quantity, science_direct_query_terms, database_total, ieee_api_total, science_direct_api) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);", 
+                    [req_params.metadata_id, req_params.author, req_params.title, req_params.keywords, req_params.abstract, req_params.year, 
+                        req_params.type_publication, req_params.doi, req_params.jcs_value, req_params.scimago_value, req_params.iee_api_page_quantity, 
+                        req_params.iee_api_query_terms, req_params.science_direct_page_quantity, req_params.science_direct_query_terms, len(data[0]), len(data[1]), len(data[2])])
+            else: 
+                metadata_id = str(generate_uuid())
+                Database.execute(connection, "INSERT INTO tb_consulta (metadata_id, author, title, keywords, abstract, year, type_publication, doi, jcs_value, scimago_value, iee_api_page_quantity, iee_api_query_terms, science_direct_page_quantity, science_direct_query_terms, database_total, ieee_api_total, science_direct_api) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);", 
+                    [metadata_id, req_params.author, req_params.title, req_params.keywords, req_params.abstract, req_params.year, 
+                        req_params.type_publication, req_params.doi, req_params.jcs_value, req_params.scimago_value, req_params.iee_api_page_quantity, 
+                        req_params.iee_api_query_terms, req_params.science_direct_page_quantity, req_params.science_direct_query_terms, len(data[0]), len(data[1]), len(data[2])])
+
             response_body = {
-                "database": [dict(item) for item in data[0]], 
+                "database": data[0], 
                 "ieee_api": data[1],
-                "science_direct_api": data[2]
+                "science_direct_api": data[2],
+                "metadata_id": metadata_id
             }
-            
+
+            connection.commit()
             return Response.make_successful_response(response, 200, GetMethodResponseBodyModel(**response_body))
         except Exception as e:
             traceback.print_exc()
@@ -114,8 +133,8 @@ class Service():
                     "abstract": bibtex.get("abstract", None),
                     "year": bibtex.get("year", None),
                     "type_publication": bibtex.get("ENTRYTYPE", None),
-                    "doi": bibtex.get("doi", None),
-                    "issn": bibtex.get("issn", None),
+                    "doi": None if bibtex.get("doi") == None else str(bibtex.get("doi")).replace("https://doi.org/", ""),
+                    "issn": None if bibtex.get("issn") == None else str(bibtex.get("issn")).replace("-", ""),
                     "journal": bibtex.get("journal", None),
                     "url": bibtex.get("url", None)
                 }

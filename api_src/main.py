@@ -5,7 +5,7 @@ import uvicorn
 
 app = fastapi.FastAPI()
 
-@app.get("/articles", response_model=articles_route.GetMethodResponseBodyModel, response_model_exclude_none=True)
+@app.get("/articles")#, response_model=articles_route.GetMethodResponseBodyModel, response_model_exclude_none=False)
 async def get_articles(request: fastapi.Request, response: fastapi.Response):
     return await articles_route.Service.get(request, response)
 
